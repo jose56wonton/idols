@@ -1,22 +1,28 @@
 import React from 'react'
 
-import Right from './right'
-import Left from './left'
+import Right from '../components/right'
+import Left from '../components/left'
 
 export default ({ data }) => {
   const post = data.markdownRemark
-  console.log('post', data)
+  
   const posts = data.allMarkdownRemark.edges;
   const currentTitle = data.markdownRemark.frontmatter.title
   const currentIndex = posts.map((ele) => {return ele.node.frontmatter.title}).indexOf(currentTitle);
-  let rightIndex = 0, leftIndex = 0;
-  if( currentIndex < posts.length-1)
-    rightIndex = currentIndex+1
-  if(currentIndex > 0 )
+  let rightIndex = 0, leftIndex = 0, rightPath, leftPath;
+  if( currentIndex === posts.length-1){
+    rightIndex = -1
     leftIndex = currentIndex-1
-  const rightPath = posts[rightIndex].node.fields.slug;
-  const leftPath = posts[leftIndex].node.fields.slug;
-  console.log(currentTitle, rightPath)
+  }else if (currentIndex === 0 ){
+    rightIndex = currentIndex+1
+    leftIndex = -1
+  }else{
+    rightIndex = currentIndex+1
+    leftIndex = currentIndex-1
+  }
+  rightIndex === -1 ? rightPath = "/" : rightPath = posts[rightIndex].node.fields.slug;
+  leftIndex === -1 ? leftPath = "/" : leftPath = posts[leftIndex].node.fields.slug;
+   
   return (
     <div>
       <Left path={leftPath} />
