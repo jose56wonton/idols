@@ -1,0 +1,35 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+  width: 654px;
+  margin: 50px auto;
+  border-radius: 7px 7px 7px 7px;
+  /* VIA CSS MATIC https://goo.gl/cIbnS */
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.card-0 {
+  background-color: #fff;
+}
+.card-1 {
+  background-color: #ecebeb;
+}
+.card-2 {
+  background-color: #c6c4c4;
+}
+.card-3 {
+  background-color: #a09d9e;
+}
+.card-4 {
+  background-color: #7a7677;
+}
+.card-5 {
+  background-color: #544f50;
+}
+.card-6 {
+  background-color: #2e282a;
+}

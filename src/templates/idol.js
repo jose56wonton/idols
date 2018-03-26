@@ -1,32 +1,33 @@
 import React from 'react'
-
+import { navigateTo } from 'gatsby-link'
 import Right from '../components/right'
 import Left from '../components/left'
+import styles from '../styles/card.module.css'
 
 export default ({ data }) => {
   const post = data.markdownRemark
-  
-  const posts = data.allMarkdownRemark.edges;
+
+  const posts = data.allMarkdownRemark.edges
   const currentTitle = data.markdownRemark.frontmatter.title
-  const currentIndex = posts.map((ele) => {return ele.node.frontmatter.title}).indexOf(currentTitle);
-  let rightIndex = 0, leftIndex = 0, rightPath, leftPath;
-  if( currentIndex === posts.length-1){
-    rightIndex = -1
-    leftIndex = currentIndex-1
-  }else if (currentIndex === 0 ){
-    rightIndex = currentIndex+1
-    leftIndex = -1
-  }else{
-    rightIndex = currentIndex+1
-    leftIndex = currentIndex-1
-  }
-  rightIndex === -1 ? rightPath = "/" : rightPath = posts[rightIndex].node.fields.slug;
-  leftIndex === -1 ? leftPath = "/" : leftPath = posts[leftIndex].node.fields.slug;
-   
+  const currentIndex = posts
+    .map(ele => {
+      return ele.node.frontmatter.title
+    })
+    .indexOf(currentTitle)
+  let rightIndex = 0,
+    rightPath
+  currentIndex === posts.length - 1
+    ? (rightIndex = -1)
+    : (rightIndex = currentIndex + 1)
+  rightIndex === -1
+    ? (rightPath = '/')
+    : (rightPath = posts[rightIndex].node.fields.slug)
+
   return (
-    <div>
-      <Left path={leftPath} />
-      <Right path={rightPath} />
+    <div
+      onClick={() => navigateTo(rightPath)}
+      className={styles[`card-${currentIndex+1}`]+" "+styles.card}
+    >
       <h1>{post.frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>

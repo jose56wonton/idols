@@ -1,8 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
-
+import {navigateTo} from 'gatsby-link'
+import  './card.css'
 const IndexPage = () => (
-  <div >
+  <div className="card card-0" onClick={ () => navigateTo('/parents')}>
     <h1>Idols</h1>
     <p>From bondage to freedom</p>    
   </div>
