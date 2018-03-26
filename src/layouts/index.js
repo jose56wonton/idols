@@ -15,7 +15,6 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
-    <Header />
     <Left />
     <Right />
     <div
