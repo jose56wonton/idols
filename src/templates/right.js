@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-export default ({ data }) => {
+export default (props) => {
   return (
   <Link
-    to="/adsdffdas"
+    to={props.path}
     style={{
       margin: 0,
       position: 'fixed',

@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Left = () => (
+export default (props) => (
   <Link
-    to="/adsdffdas"
+    to={props.path}
     style={{
       margin: 0,
       position: 'fixed',
@@ -19,4 +19,4 @@ const Left = () => (
   </Link>
 )
 
-export default Left
+
