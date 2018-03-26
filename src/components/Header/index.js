@@ -13,6 +13,7 @@ const Header = () => (
         margin: '0 auto',
         maxWidth: 960,
         padding: '1.45rem 1.0875rem',
+        textAlign: 'center',
       }}
     >
       <h1 style={{ margin: 0 }}>
@@ -23,7 +24,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Idols
         </Link>
       </h1>
     </div>

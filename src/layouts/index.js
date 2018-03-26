@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
-import './index.css'
+import Right from '../components/Right'
+import Left from '../components/Left'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -15,6 +16,8 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
+    <Left />
+    <Right />
     <div
       style={{
         margin: '0 auto',
