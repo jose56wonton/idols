@@ -1,4 +1,6 @@
 ---
-title: Pleasure
-date: 2012-2017
+title: "Pleasure"
+date: "2012"
 ---
+
+2012-2017

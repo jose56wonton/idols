@@ -1,26 +1,22 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-const Right = () => (
-  <h2
+export default ({ data }) => {
+  return (
+  <Link
+    to="/adsdffdas"
     style={{
       margin: 0,
       position: 'fixed',
       top: '50%',
       right: '0%',
       transform: 'translate(0%, -50%)',
+      color: 'black',
+      textDecoration: 'none',
+      zIndex: '10',
     }}
   >
-    <Link
-      to="/asdf"
-      style={{
-        color: 'black',
-        textDecoration: 'none',
-      }}
-    >
-      Right
-    </Link>
-  </h2>
-)
+    Right
+  </Link>)
+}
 
-export default Right
