@@ -1,9 +1,7 @@
 import React from 'react'
 import { navigateTo } from 'gatsby-link'
-import Right from '../components/right'
-import Left from '../components/left'
 import styles from './idols.module.css'
-
+import NavButton from '../components/navButton'
 export default ({ data }) => {
   const post = data.markdownRemark
 
@@ -38,7 +36,7 @@ export default ({ data }) => {
 
   return (
     <div>
-      <Left path={leftPath} />
+      <NavButton path={leftPath} position="left" text="Left" />
       <div
         onClick={() => navigateTo(rightPath)}
         className={styles[`phase-${currentIndex + 1}`] + ' ' + styles.card}
@@ -46,7 +44,7 @@ export default ({ data }) => {
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
-      <Right path={rightPath} />
+      <NavButton path={rightPath} position="right" text="Right" />
     </div>
   )
 }
