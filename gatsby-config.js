@@ -10,7 +10,7 @@ module.exports = {
         name: `src`,
         path: `${__dirname}/src/`,
       },
-    },
+    },`gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-typography`,

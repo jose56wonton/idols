@@ -2,9 +2,13 @@ import React from 'react'
 import {navigateTo} from 'gatsby-link'
 import  './card.css'
 const IndexPage = () => (
-  <div className="card card-0" onClick={ () => navigateTo('/parents')}>
+  <div >
     <h1>Idols</h1>
-    <p>From bondage to freedom</p>    
+    <p>From bondage to freedom</p>
+   
+      <a onClick={ () => navigateTo('/parents')} className="bttn">Continue</a>
+    
+    <button className="phase-0 bttn" onClick={ () => navigateTo('/parents')}>Enter</button>   
   </div>
 )
 

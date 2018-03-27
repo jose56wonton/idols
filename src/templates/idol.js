@@ -2,7 +2,7 @@ import React from 'react'
 import { navigateTo } from 'gatsby-link'
 import Right from '../components/right'
 import Left from '../components/left'
-import styles from '../styles/card.module.css'
+import styles from './idols.module.css'
 
 export default ({ data }) => {
   const post = data.markdownRemark
@@ -15,21 +15,38 @@ export default ({ data }) => {
     })
     .indexOf(currentTitle)
   let rightIndex = 0,
-    rightPath
-  currentIndex === posts.length - 1
-    ? (rightIndex = -1)
-    : (rightIndex = currentIndex + 1)
+    leftIndex = 0,
+    rightPath,
+    leftPath
+  if (currentIndex === posts.length - 1) {
+    rightIndex = -1
+    leftIndex = currentIndex - 1
+  } else if (currentIndex === 0) {
+    rightIndex = currentIndex + 1
+    leftIndex = -1
+  } else {
+    rightIndex = currentIndex + 1
+    leftIndex = currentIndex - 1
+  }
+
   rightIndex === -1
     ? (rightPath = '/')
     : (rightPath = posts[rightIndex].node.fields.slug)
+  leftIndex === -1
+    ? (leftPath = '/')
+    : (leftPath = posts[leftIndex].node.fields.slug)
 
   return (
-    <div
-      onClick={() => navigateTo(rightPath)}
-      className={styles[`card-${currentIndex+1}`]+" "+styles.card}
-    >
-      <h1>{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+    <div>
+      <Left path={leftPath} />
+      <div
+        onClick={() => navigateTo(rightPath)}
+        className={styles[`phase-${currentIndex + 1}`] + ' ' + styles.card}
+      >
+        <h1>{post.frontmatter.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      </div>
+      <Right path={rightPath} />
     </div>
   )
 }
