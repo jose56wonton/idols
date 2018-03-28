@@ -1,0 +1,76 @@
+{
+  "assetsByChunkName": {
+    "path---significance": [
+      "path---significance-9abafd10e931aa7d0a01.js",
+      "path---significance-9abafd10e931aa7d0a01.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-491fb190160ab7fb470a.js",
+      "component---src-pages-index-js-491fb190160ab7fb470a.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---pleasure": [
+      "path---pleasure-296abafda01d9840075b.js",
+      "path---pleasure-296abafda01d9840075b.js.map"
+    ],
+    "path---relationship": [
+      "path---relationship-519c4e43ba01de4e166f.js",
+      "path---relationship-519c4e43ba01de4e166f.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-b544c6b73cad199f8d5c.js",
+      "component---src-layouts-index-js-b544c6b73cad199f8d5c.js.map"
+    ],
+    "path---next": [
+      "path---next-90e989e01e51c337d83b.js",
+      "path---next-90e989e01e51c337d83b.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---parents": [
+      "path---parents-d9b7bb996ac67606769e.js",
+      "path---parents-d9b7bb996ac67606769e.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-37e7ec241aad23eaba66.js",
+      "build-js-styles.css",
+      "commons-37e7ec241aad23eaba66.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---success": [
+      "path---success-59502dd4fc06141083ec.js",
+      "path---success-59502dd4fc06141083ec.js.map"
+    ],
+    "path---heaven": [
+      "path---heaven-c720f5680060b83720d1.js",
+      "path---heaven-c720f5680060b83720d1.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-templates-idol-js": [
+      "component---src-templates-idol-js-a27302ed6c7eec7d98e5.js",
+      "component---src-templates-idol-js-a27302ed6c7eec7d98e5.js.map"
+    ],
+    "app": [
+      "app-c3186b8eb6d91a69cbab.js",
+      "build-js-styles.css",
+      "app-c3186b8eb6d91a69cbab.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
