@@ -36,7 +36,7 @@ export default ({ data }) => {
 
   return (
     <div>
-      <NavButton path={leftPath} position="left" text="Left" />
+      <NavButton path={leftPath} position="left" text="Left" style={currentIndex+1}/>
       <div
         onClick={() => navigateTo(rightPath)}
         className={styles[`phase-${currentIndex + 1}`] + ' ' + styles.card}
@@ -44,7 +44,7 @@ export default ({ data }) => {
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
-      <NavButton path={rightPath} position="right" text="Right" />
+      <NavButton path={rightPath} position="right" text="Right" style={currentIndex+1} />
     </div>
   )
 }

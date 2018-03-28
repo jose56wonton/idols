@@ -4,11 +4,10 @@ import './navButton.css'
 import { navigateTo } from 'gatsby-link'
 
 export default props => {
-  console.log(props.path)
   return (
     <a
       onClick={() => navigateTo(`${props.path}`)}
-      className={`bttn ${props.position}`}
+      className={`bttn ${props.position} color-${props.style}`}
     >
       {props.text}
     </a>
