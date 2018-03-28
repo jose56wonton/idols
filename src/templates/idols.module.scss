@@ -1,3 +1,27 @@
+$color-0-primary: rgb(5, 4, 4);
+$color-0-secondary: rgb(7, 52, 51);
+$color-0-third: rgb(23, 5, 23);
+$color-1-primary: rgb(13, 11, 12);
+$color-1-secondary: rgb(11, 87, 85);
+$color-1-third: rgb(38, 9, 38);
+$color-2-primary: rgb(21, 19, 20);
+$color-2-secondary: rgb(15, 121, 119);
+$color-2-third: rgb(53, 12, 53);
+$color-3-primary: rgb(30, 26, 27);
+$color-3-secondary: rgb(19, 156, 154);
+$color-3-third: rgb(68, 15, 68);
+$color-4-primary: rgb(38, 33, 35);
+$color-4-secondary: rgb(23, 190, 187);
+$color-4-third: rgb(83, 18, 83);
+$color-5-primary: rgb(46, 40, 42);
+$color-5-secondary: rgb(65, 201, 199);
+$color-5-third: rgb(114, 61, 114);
+$color-6-primary: rgb(84, 79, 80);
+$color-6-secondary: rgb( 86, 207, 205);
+$color-6-third: rgb(129, 82, 129);
+$color-7-primary: rgb(84, 79, 80);
+$color-7-secondary: rgb(  232, 203, 0);
+$color-7-third: rgb(129, 82, 129);
 .card {
     display: flex;
     flex-direction: column;
@@ -12,30 +36,43 @@
     -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
-  
-  
-  }
-  .phase-0 {
-    background-color: #fff;
-  }
-  .phase-1 {
-    background-color: #ecebeb;
-  }
-  .phase-2 {
-    background-color: #c6c4c4;
-  }
-  .phase-3 {
-    background-color: #a09d9e;
-  }
-  .phase-4 {
-    background-color: #7a7677;
-  }
-  .phase-5 {
-    background-color: #544f50;
-  }
-  .phase-6 {
-    background-color: #2e282a;
-  }
-  
+}
 
-  
+.color-0 {
+    color: $color-0-primary;
+    border: 3px solid $color-0-secondary;
+}
+
+.color-1 {
+    color: $color-1-primary;
+    border: 3px solid $color-1-secondary;
+}
+
+.color-2 {
+    color: $color-2-primary;
+    border: 3px solid $color-2-secondary;
+}
+
+.color-3 {
+    color: $color-3-primary;
+    border: 3px solid $color-3-secondary;
+}
+
+.color-4 {
+    color: $color-4-primary;
+    border: 3px solid $color-4-secondary;
+}
+
+.color-5 {
+    color: $color-5-primary;
+    border: 3px solid $color-5-secondary;
+}
+
+.color-6 {
+  color: $color-6-primary;
+  border: 3px solid $color-6-secondary;
+}
+.color-7 {
+  color: $color-7-primary;
+  border: 3px solid $color-7-secondary;
+}

@@ -22,8 +22,8 @@
     transition: 0.5s all ease;
     position: absolute;
     top: 0;
-    left: 50%;
-    right: 50%;
+    left: 100%;
+    right: 0%;
     bottom: 0;
     opacity: 0;
     content: '';
@@ -88,6 +88,13 @@
 
 .color-6:before {
   background-color: #56cfcd; }
+
+.color-7 {
+  color: #544f50;
+  border: 3px solid #e8cb00; }
+
+.color-7:before {
+  background-color: #e8cb00; }
 
 .left {
   margin: 0;

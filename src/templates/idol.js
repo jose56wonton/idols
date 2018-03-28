@@ -33,13 +33,15 @@ export default ({ data }) => {
   leftIndex === -1
     ? (leftPath = '/')
     : (leftPath = posts[leftIndex].node.fields.slug)
-
+  const currentColor = currentIndex +1
+  const asdf = "color-"+currentColor
+  console.log(asdf);
   return (
-    <div>
+    <div >
       <NavButton path={leftPath} position="left" text="Left" style={currentIndex+1}/>
       <div
         onClick={() => navigateTo(rightPath)}
-        className={styles[`phase-${currentIndex + 1}`] + ' ' + styles.card}
+        className={`${styles.card} ${styles[asdf]}` }
       >
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
