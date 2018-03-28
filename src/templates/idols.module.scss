@@ -22,6 +22,37 @@ $color-6-third: rgb(129, 82, 129);
 $color-7-primary: rgb(84, 79, 80);
 $color-7-secondary: rgb(  232, 203, 0);
 $color-7-third: rgb(129, 82, 129);
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+p,h1 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
 .card {
     display: flex;
     flex-direction: column;

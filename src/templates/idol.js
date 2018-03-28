@@ -43,7 +43,7 @@ export default ({ data }) => {
         onClick={() => navigateTo(rightPath)}
         className={`${styles.card} ${styles[asdf]}` }
       >
-        <h1>{post.frontmatter.title}</h1>
+        <h1 className={styles.fadeIn}>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
       <NavButton path={rightPath} position="right" text="Right" style={currentIndex+1} />
