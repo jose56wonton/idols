@@ -7,7 +7,7 @@ const IndexPage = () => (
       <h1>Idols</h1>
       <p>From bondage to freedom</p>
     </div>
-    <NavButton path="/parents" position="center" text="Continue" style={0} />
+    <NavButton path="/parents" position="right" text="Continue" style={0} />
   </div>
 );
 
