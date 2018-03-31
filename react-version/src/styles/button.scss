@@ -1,0 +1,76 @@
+$color-0-primary: rgb(5, 4, 4);
+$color-0-secondary: rgb(7, 52, 51);
+$color-0-third: rgb(23, 5, 23);
+$color-1-primary: rgb(13, 11, 12);
+$color-1-secondary: rgb(11, 87, 85);
+$color-1-third: rgb(38, 9, 38);
+$color-2-primary: rgb(21, 19, 20);
+$color-2-secondary: rgb(15, 121, 119);
+$color-2-third: rgb(53, 12, 53);
+$color-3-primary: rgb(30, 26, 27);
+$color-3-secondary: rgb(19, 156, 154);
+$color-3-third: rgb(68, 15, 68);
+$color-4-primary: rgb(38, 33, 35);
+$color-4-secondary: rgb(23, 190, 187);
+$color-4-third: rgb(83, 18, 83);
+$color-5-primary: rgb(46, 40, 42);
+$color-5-secondary: rgb(65, 201, 199);
+$color-5-third: rgb(114, 61, 114);
+$color-6-primary: rgb(84, 79, 80);
+$color-6-secondary: rgb( 86, 207, 205);
+$color-6-third: rgb(129, 82, 129);
+$color-7-primary: rgb(84, 79, 80);
+$color-7-secondary: rgb( 232, 203, 0);
+$color-7-third: rgb(129, 82, 129);
+.bttn-wrapper {
+    position: relative;
+    height: 50px;
+    width: 120px;
+}
+
+.bttn {
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s ease all;
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    border-radius: 2px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.phase-1-button,.phase-2-button,.phase-3-button{
+    padding: 0;
+    top: 50%;
+    bottom: 50%;
+}
+
+.left {
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    transform: translate(0%, -50%);
+    color: black;
+    z-index: 10;
+}
+
+.right {
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    transform: translate(0%, -50%);
+    color: black;
+    z-index: 10;
+}

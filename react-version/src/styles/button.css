@@ -1,0 +1,49 @@
+.bttn-wrapper {
+  position: relative;
+  height: 50px;
+  width: 120px; }
+
+.bttn {
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s ease all;
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  padding: 14px;
+  border-radius: 2px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+.phase-1-button, .phase-2-button, .phase-3-button {
+  padding: 0;
+  top: 50%;
+  bottom: 50%; }
+
+.left {
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  left: 5%;
+  transform: translate(0%, -50%);
+  color: black;
+  z-index: 10; }
+
+.right {
+  margin: 0;
+  position: fixed;
+  top: 50%;
+  right: 5%;
+  transform: translate(0%, -50%);
+  color: black;
+  z-index: 10; }
+
+/*# sourceMappingURL=button.css.map */

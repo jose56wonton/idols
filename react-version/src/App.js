@@ -41,28 +41,62 @@ class App extends Component {
       idols: idolData
     };
   }
-  right = () =>{
-    if(this.state.current !== this.state.idols.length-1){
+  right = () => {
+    if (this.state.current !== this.state.idols.length - 1) {
       this.setState({
-        current : this.state.current+1
-      })
+        current: this.state.current + 1,
+        classes: "phase-1"
+      });
+      setTimeout(()=>{
+        this.setState({classes:"phase-2"})
+      },500);
+      setTimeout(()=>{
+        this.setState({classes:"phase-3"})
+      },1000);
+      setTimeout(()=>{
+        this.setState({classes:"phase-4"})
+      },1500);
+      setTimeout(()=>{
+        this.setState({classes:""})
+      },2000);
     }
-  }
-  left = () =>{
-    if(this.state.current !== 0){
+  };
+  left = () => {
+    if (this.state.current !== 0) {
       this.setState({
-        current : this.state.current-1
-      })
-    } 
-  }
+        current: this.state.current - 1,
+        classes: "phase-1"
+      });
+      setTimeout(()=>{
+        this.setState({classes:"phase-2"})
+      },500);
+      setTimeout(()=>{
+        this.setState({classes:"phase-3"})
+      },1000);
+      setTimeout(()=>{
+        this.setState({classes:"phase-4"})
+      },1500);
+      setTimeout(()=>{
+        this.setState({classes:""})
+      },2000);
+    }
+  };
   render() {
     const current = this.state.current;
     const idol = this.state.idols[current];
     return (
       <div className="page">
-        <Button position="left" text="Left" current={current} action={this.left}/>
-        <Card title={idol.title} sub={idol.sub} />
-        <Button position="right" text="Right"  current={current} action={this.right}/>
+        <Button
+          position="left"
+          action={this.left}
+          classes={this.state.classes}
+        />
+        <Card title={idol.title} sub={idol.sub} classes={this.state.classes}/>
+        <Button
+          position="right"
+          action={this.right}
+          classes={this.state.classes}
+        />
       </div>
     );
   }
