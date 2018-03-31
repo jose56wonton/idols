@@ -1,0 +1,2320 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "cfd892310ab2a0e76a29058d52e0b476",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-page-creator": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "id": "Plugin component-page-creator",
+      "name": "component-page-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/component-page-creator",
+      "packageJson": {
+        "name": "component-page-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/pages",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ad88745db8366a382ac2559b65994d3c",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a734492b7ef82f8ad4862c50f6a6686e",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "4d18495c1639f57da76121d1a761927b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "98ed1c1fbb90734b203d1a5541cb61c1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "89ec8e77f93b14f986f307d3b168f424",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Provides drop-in support for server rendering data added with react-helmet",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": ">=5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "aadbfe19e5f3333da637e4480802e43d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-source-filesystem": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby-source-filesystem",
+      "id": "Plugin gatsby-source-filesystem",
+      "name": "gatsby-source-filesystem",
+      "version": "1.5.27",
+      "pluginOptions": {
+        "plugins": [],
+        "name": "src",
+        "path": "C:\\Git\\Personal\\idols/src/"
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby-source-filesystem",
+      "packageJson": {
+        "name": "gatsby-source-filesystem",
+        "description": "Gatsby plugin which parses files within a directory for further parsing by other plugins",
+        "version": "1.5.27",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "fs-extra",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "got",
+            "version": "^7.1.0"
+          },
+          {
+            "name": "md5-file",
+            "version": "^3.1.1"
+          },
+          {
+            "name": "mime",
+            "version": "^1.3.6"
+          },
+          {
+            "name": "pretty-bytes",
+            "version": "^4.0.2"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "valid-url",
+            "version": "^1.0.9"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "92f997ced33ff28a7c3ebbff9ad733fc",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.25",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.25",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "sass",
+          "scss"
+        ],
+        "author": {
+          "name": "Daniel Farrell",
+          "email": "daniel@mobelux.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.11"
+          },
+          {
+            "name": "gatsby-1-config-extract-plugin",
+            "version": "^1.0.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "66f32bda0bfa09536585fd2f2b879f3d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-transformer-remark": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby-transformer-remark",
+      "id": "Plugin gatsby-transformer-remark",
+      "name": "gatsby-transformer-remark",
+      "version": "1.7.37",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "setFieldsOnGraphQLNodeType"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby-transformer-remark",
+      "packageJson": {
+        "name": "gatsby-transformer-remark",
+        "description": "Gatsby transformer plugin for Markdown using the Remark library and ecosystem",
+        "version": "1.7.37",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "markdown",
+          "remark"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "graphql-type-json",
+            "version": "^0.1.4"
+          },
+          {
+            "name": "gray-matter",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "hast-util-raw",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "hast-util-to-html",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "mdast-util-to-hast",
+            "version": "^2.4.0"
+          },
+          {
+            "name": "mdast-util-toc",
+            "version": "^2.0.1"
+          },
+          {
+            "name": "remark",
+            "version": "^7.0.1"
+          },
+          {
+            "name": "remark-parse",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "remark-retext",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "remark-stringify",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "retext-english",
+            "version": "^3.0.0"
+          },
+          {
+            "name": "sanitize-html",
+            "version": "^1.14.1"
+          },
+          {
+            "name": "underscore.string",
+            "version": "^3.3.4"
+          },
+          {
+            "name": "unified",
+            "version": "^6.1.5"
+          },
+          {
+            "name": "unist-util-remove-position",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "unist-util-select",
+            "version": "^1.5.0"
+          },
+          {
+            "name": "unist-util-visit",
+            "version": "^1.1.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.20.2"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a77beacd4b099ab3391cc9e494968eb0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-typography": {
+      "resolve": "C:/Git/Personal/idols/node_modules/gatsby-plugin-typography",
+      "id": "Plugin gatsby-plugin-typography",
+      "name": "gatsby-plugin-typography",
+      "version": "1.7.18",
+      "pluginOptions": {
+        "plugins": [],
+        "pathToConfigModule": "src/utils/typography"
+      },
+      "nodeAPIs": [
+        "onPreBootstrap"
+      ],
+      "browserAPIs": [
+        "onClientEntry"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "C:/Git/Personal/idols/node_modules/gatsby-plugin-typography",
+      "packageJson": {
+        "name": "gatsby-plugin-typography",
+        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
+        "version": "1.7.18",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "typography",
+          "typography.js"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-typography",
+            "version": "^0.16.1"
+          },
+          {
+            "name": "typography",
+            "version": "^0.16.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "5508fedba7d43532f4af3f389bc7494b",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "C:/Git/Personal/idols",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "4bfbd94123e070f578af6eccb27b0a1e",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateNode",
+        "createPages"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "C:/Git/Personal/idols",
+      "packageJson": {
+        "name": "gatsby-starter-default",
+        "description": "Gatsby default starter",
+        "version": "1.0.0",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "animate.css",
+            "version": "^3.6.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.241"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.39"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^2.0.8"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.25"
+          },
+          {
+            "name": "gatsby-plugin-typography",
+            "version": "^1.7.18"
+          },
+          {
+            "name": "gatsby-source-filesystem",
+            "version": "^1.5.27"
+          },
+          {
+            "name": "gatsby-transformer-remark",
+            "version": "^1.7.37"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "typography-theme-noriega",
+            "version": "^0.15.10"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "gh-pages",
+            "version": "^1.1.0"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.11.1"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "a2990f9652d5d602f5c77197e18aab91",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Idols"
+      },
+      "pathPrefix": "/idols",
+      "polyfill": true,
+      "buildTime": "2018-03-28T04:19:22.661Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ffa2d453aec74ac612181e987c49394f",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "C:/Git/Personal/idols/src/ absPath of file": {
+      "id": "C:/Git/Personal/idols/src/ absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7c5e1da46098ec740d6182303cde6bd0",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/",
+      "relativePath": "",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-27T23:36:26.987Z",
+      "accessTime": "2018-03-27T23:36:26.987Z",
+      "changeTime": "2018-03-27T23:36:26.987Z",
+      "birthTime": "2018-03-27T23:36:26.982Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols",
+      "base": "src",
+      "ext": "",
+      "name": "src",
+      "relativeDirectory": "..",
+      "dev": 1153554860,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1688849861225868,
+      "atimeMs": 1522193786987.489,
+      "mtimeMs": 1522193786987.489,
+      "ctimeMs": 1522193786987.489,
+      "birthtimeMs": 1522193786981.5657,
+      "atime": "2018-03-27T23:36:26.987Z",
+      "mtime": "2018-03-27T23:36:26.987Z",
+      "ctime": "2018-03-27T23:36:26.987Z",
+      "birthtime": "2018-03-27T23:36:26.982Z"
+    },
+    "C:/Git/Personal/idols/src/components absPath of file": {
+      "id": "C:/Git/Personal/idols/src/components absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3d4d971125c317de4168729dc4f672db",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-28T02:40:49.951Z",
+      "accessTime": "2018-03-28T02:40:49.951Z",
+      "changeTime": "2018-03-28T02:40:49.951Z",
+      "birthTime": "2018-03-27T23:36:26.982Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 1153554860,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374884515213,
+      "atimeMs": 1522204849950.7122,
+      "mtimeMs": 1522204849950.7122,
+      "ctimeMs": 1522204849950.7122,
+      "birthtimeMs": 1522193786981.5657,
+      "atime": "2018-03-28T02:40:49.951Z",
+      "mtime": "2018-03-28T02:40:49.951Z",
+      "ctime": "2018-03-28T02:40:49.951Z",
+      "birthtime": "2018-03-27T23:36:26.982Z"
+    },
+    "C:/Git/Personal/idols/src/layouts absPath of file": {
+      "id": "C:/Git/Personal/idols/src/layouts absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "92db8313b5d9c2c9502a8ad590213d62",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/layouts",
+      "relativePath": "layouts",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-27T23:36:26.984Z",
+      "accessTime": "2018-03-27T23:36:26.984Z",
+      "changeTime": "2018-03-27T23:36:26.984Z",
+      "birthTime": "2018-03-27T23:36:26.984Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src",
+      "base": "layouts",
+      "ext": "",
+      "name": "layouts",
+      "relativeDirectory": "",
+      "dev": 1153554860,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 4222124651622135,
+      "atimeMs": 1522193786983.5728,
+      "mtimeMs": 1522193786983.5728,
+      "ctimeMs": 1522193786983.5728,
+      "birthtimeMs": 1522193786983.5728,
+      "atime": "2018-03-27T23:36:26.984Z",
+      "mtime": "2018-03-27T23:36:26.984Z",
+      "ctime": "2018-03-27T23:36:26.984Z",
+      "birthtime": "2018-03-27T23:36:26.984Z"
+    },
+    "C:/Git/Personal/idols/src/utils absPath of file": {
+      "id": "C:/Git/Personal/idols/src/utils absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "083eaaa7d7389ff17f468e35cc69c2d0",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/utils",
+      "relativePath": "utils",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-27T23:36:26.987Z",
+      "accessTime": "2018-03-27T23:36:26.987Z",
+      "changeTime": "2018-03-27T23:36:26.987Z",
+      "birthTime": "2018-03-27T23:36:26.987Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src",
+      "base": "utils",
+      "ext": "",
+      "name": "utils",
+      "relativeDirectory": "",
+      "dev": 1153554860,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2814749768188300,
+      "atimeMs": 1522193786987.489,
+      "mtimeMs": 1522193786987.489,
+      "ctimeMs": 1522193786987.489,
+      "birthtimeMs": 1522193786987.489,
+      "atime": "2018-03-27T23:36:26.987Z",
+      "mtime": "2018-03-27T23:36:26.987Z",
+      "ctime": "2018-03-27T23:36:26.987Z",
+      "birthtime": "2018-03-27T23:36:26.987Z"
+    },
+    "C:/Git/Personal/idols/src/pages absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "89cdbb4daf54ab84e0096c2ad321df85",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages",
+      "relativePath": "pages",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-28T02:41:18.395Z",
+      "accessTime": "2018-03-28T02:41:18.395Z",
+      "changeTime": "2018-03-28T02:41:18.395Z",
+      "birthTime": "2018-03-27T23:36:26.984Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src",
+      "base": "pages",
+      "ext": "",
+      "name": "pages",
+      "relativeDirectory": "",
+      "dev": 1153554860,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 6192449488710423,
+      "atimeMs": 1522204878394.8489,
+      "mtimeMs": 1522204878394.8489,
+      "ctimeMs": 1522204878394.8489,
+      "birthtimeMs": 1522193786983.5728,
+      "atime": "2018-03-28T02:41:18.395Z",
+      "mtime": "2018-03-28T02:41:18.395Z",
+      "ctime": "2018-03-28T02:41:18.395Z",
+      "birthtime": "2018-03-27T23:36:26.984Z"
+    },
+    "C:/Git/Personal/idols/src/templates absPath of file": {
+      "id": "C:/Git/Personal/idols/src/templates absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1cc0cb1c4dee7b0b6d16a83839294e72",
+        "type": "Directory",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/templates",
+      "relativePath": "templates",
+      "extension": "",
+      "size": 0,
+      "prettySize": "0 B",
+      "modifiedTime": "2018-03-27T23:36:26.987Z",
+      "accessTime": "2018-03-27T23:36:26.987Z",
+      "changeTime": "2018-03-27T23:36:26.987Z",
+      "birthTime": "2018-03-27T23:36:26.986Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src",
+      "base": "templates",
+      "ext": "",
+      "name": "templates",
+      "relativeDirectory": "",
+      "dev": 1153554860,
+      "mode": 16822,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2533274791477500,
+      "atimeMs": 1522193786987.489,
+      "mtimeMs": 1522193786987.489,
+      "ctimeMs": 1522193786987.489,
+      "birthtimeMs": 1522193786986.4849,
+      "atime": "2018-03-27T23:36:26.987Z",
+      "mtime": "2018-03-27T23:36:26.987Z",
+      "ctime": "2018-03-27T23:36:26.987Z",
+      "birthtime": "2018-03-27T23:36:26.986Z"
+    },
+    "C:/Git/Personal/idols/src/components/navButton.css absPath of file": {
+      "id": "C:/Git/Personal/idols/src/components/navButton.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8bad52e90d5acb5fff23390cb78f0e71",
+        "mediaType": "text/css",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/components/navButton.css",
+      "relativePath": "components/navButton.css",
+      "extension": "css",
+      "size": 2708,
+      "prettySize": "2.71 kB",
+      "modifiedTime": "2018-03-28T03:31:25.347Z",
+      "accessTime": "2018-03-27T23:36:26.982Z",
+      "changeTime": "2018-03-28T03:31:25.347Z",
+      "birthTime": "2018-03-27T23:36:26.982Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/components",
+      "base": "navButton.css",
+      "ext": ".css",
+      "name": "navButton",
+      "relativeDirectory": "components",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1688849861225870,
+      "atimeMs": 1522193786981.5657,
+      "mtimeMs": 1522207885347.3508,
+      "ctimeMs": 1522207885347.3508,
+      "birthtimeMs": 1522193786981.5657,
+      "atime": "2018-03-27T23:36:26.982Z",
+      "mtime": "2018-03-28T03:31:25.347Z",
+      "ctime": "2018-03-28T03:31:25.347Z",
+      "birthtime": "2018-03-27T23:36:26.982Z"
+    },
+    "C:/Git/Personal/idols/src/components/navButton.css.map absPath of file": {
+      "id": "C:/Git/Personal/idols/src/components/navButton.css.map absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c3e20c80cd8487723e6c6fcb93d1de17",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/components/navButton.css.map",
+      "relativePath": "components/navButton.css.map",
+      "extension": "map",
+      "size": 2350,
+      "prettySize": "2.35 kB",
+      "modifiedTime": "2018-03-28T03:31:25.384Z",
+      "accessTime": "2018-03-27T23:36:26.983Z",
+      "changeTime": "2018-03-28T03:31:25.384Z",
+      "birthTime": "2018-03-27T23:36:26.983Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/components",
+      "base": "navButton.css.map",
+      "ext": ".map",
+      "name": "navButton.css",
+      "relativeDirectory": "components",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374884515215,
+      "atimeMs": 1522193786982.569,
+      "mtimeMs": 1522207885384.4175,
+      "ctimeMs": 1522207885384.4175,
+      "birthtimeMs": 1522193786982.569,
+      "atime": "2018-03-27T23:36:26.983Z",
+      "mtime": "2018-03-28T03:31:25.384Z",
+      "ctime": "2018-03-28T03:31:25.384Z",
+      "birthtime": "2018-03-27T23:36:26.983Z"
+    },
+    "C:/Git/Personal/idols/src/components/navButton.scss absPath of file": {
+      "id": "C:/Git/Personal/idols/src/components/navButton.scss absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "dfc67b8053454a5d9fbc1f3efec6a6ef",
+        "mediaType": "text/x-scss",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/components/navButton.scss",
+      "relativePath": "components/navButton.scss",
+      "extension": "scss",
+      "size": 4471,
+      "prettySize": "4.47 kB",
+      "modifiedTime": "2018-03-28T03:31:24.912Z",
+      "accessTime": "2018-03-27T23:36:26.983Z",
+      "changeTime": "2018-03-28T03:31:24.912Z",
+      "birthTime": "2018-03-27T23:36:26.983Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/components",
+      "base": "navButton.scss",
+      "ext": ".scss",
+      "name": "navButton",
+      "relativeDirectory": "components",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1407374884515225,
+      "atimeMs": 1522193786982.569,
+      "mtimeMs": 1522207884912.1716,
+      "ctimeMs": 1522207884912.1716,
+      "birthtimeMs": 1522193786982.569,
+      "atime": "2018-03-27T23:36:26.983Z",
+      "mtime": "2018-03-28T03:31:24.912Z",
+      "ctime": "2018-03-28T03:31:24.912Z",
+      "birthtime": "2018-03-27T23:36:26.983Z"
+    },
+    "C:/Git/Personal/idols/src/layouts/index.js absPath of file": {
+      "id": "C:/Git/Personal/idols/src/layouts/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bae2a02cdf38712a9eaf995f76d3f93f",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/layouts/index.js",
+      "relativePath": "layouts/index.js",
+      "extension": "js",
+      "size": 793,
+      "prettySize": "793 B",
+      "modifiedTime": "2018-03-27T23:36:26.984Z",
+      "accessTime": "2018-03-27T23:36:26.984Z",
+      "changeTime": "2018-03-27T23:36:26.984Z",
+      "birthTime": "2018-03-27T23:36:26.984Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/layouts",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "layouts",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 10414574139370256,
+      "atimeMs": 1522193786983.5728,
+      "mtimeMs": 1522193786983.5728,
+      "ctimeMs": 1522193786983.5728,
+      "birthtimeMs": 1522193786983.5728,
+      "atime": "2018-03-27T23:36:26.984Z",
+      "mtime": "2018-03-27T23:36:26.984Z",
+      "ctime": "2018-03-27T23:36:26.984Z",
+      "birthtime": "2018-03-27T23:36:26.984Z"
+    },
+    "C:/Git/Personal/idols/src/pages/card.css absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages/card.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "bfe78af9e4fe06fc53431c8ffa181d7d",
+        "mediaType": "text/css",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages/card.css",
+      "relativePath": "pages/card.css",
+      "extension": "css",
+      "size": 807,
+      "prettySize": "807 B",
+      "modifiedTime": "2018-03-28T03:35:02.666Z",
+      "accessTime": "2018-03-28T02:41:18.395Z",
+      "changeTime": "2018-03-28T03:35:02.666Z",
+      "birthTime": "2018-03-28T02:41:18.395Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/pages",
+      "base": "card.css",
+      "ext": ".css",
+      "name": "card",
+      "relativeDirectory": "pages",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 5348024558878453,
+      "atimeMs": 1522204878394.8489,
+      "mtimeMs": 1522208102665.6387,
+      "ctimeMs": 1522208102665.6387,
+      "birthtimeMs": 1522204878394.8489,
+      "atime": "2018-03-28T02:41:18.395Z",
+      "mtime": "2018-03-28T03:35:02.666Z",
+      "ctime": "2018-03-28T03:35:02.666Z",
+      "birthtime": "2018-03-28T02:41:18.395Z"
+    },
+    "C:/Git/Personal/idols/src/components/navButton.js absPath of file": {
+      "id": "C:/Git/Personal/idols/src/components/navButton.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "aa0013bc93f3afd05980ec730a639031",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/components/navButton.js",
+      "relativePath": "components/navButton.js",
+      "extension": "js",
+      "size": 402,
+      "prettySize": "402 B",
+      "modifiedTime": "2018-03-28T02:58:53.481Z",
+      "accessTime": "2018-03-27T23:36:26.983Z",
+      "changeTime": "2018-03-28T02:58:53.481Z",
+      "birthTime": "2018-03-27T23:36:26.983Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/components",
+      "base": "navButton.js",
+      "ext": ".js",
+      "name": "navButton",
+      "relativeDirectory": "components",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1688849861225873,
+      "atimeMs": 1522193786982.569,
+      "mtimeMs": 1522205933481.0764,
+      "ctimeMs": 1522205933481.0764,
+      "birthtimeMs": 1522193786982.569,
+      "atime": "2018-03-27T23:36:26.983Z",
+      "mtime": "2018-03-28T02:58:53.481Z",
+      "ctime": "2018-03-28T02:58:53.481Z",
+      "birthtime": "2018-03-27T23:36:26.983Z"
+    },
+    "C:/Git/Personal/idols/src/utils/typography.js absPath of file": {
+      "id": "C:/Git/Personal/idols/src/utils/typography.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1f768319eaf5c25802fc087139705dc9",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/utils/typography.js",
+      "relativePath": "utils/typography.js",
+      "extension": "js",
+      "size": 172,
+      "prettySize": "172 B",
+      "modifiedTime": "2018-03-27T23:36:26.987Z",
+      "accessTime": "2018-03-27T23:36:26.987Z",
+      "changeTime": "2018-03-27T23:36:26.987Z",
+      "birthTime": "2018-03-27T23:36:26.987Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/utils",
+      "base": "typography.js",
+      "ext": ".js",
+      "name": "typography",
+      "relativeDirectory": "utils",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3377699721609626,
+      "atimeMs": 1522193786987.489,
+      "mtimeMs": 1522193786987.489,
+      "ctimeMs": 1522193786987.489,
+      "birthtimeMs": 1522193786987.489,
+      "atime": "2018-03-27T23:36:26.987Z",
+      "mtime": "2018-03-27T23:36:26.987Z",
+      "ctime": "2018-03-27T23:36:26.987Z",
+      "birthtime": "2018-03-27T23:36:26.987Z"
+    },
+    "C:/Git/Personal/idols/src/pages/heaven.md absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages/heaven.md absPath of file",
+      "children": [
+        "C:/Git/Personal/idols/src/pages/heaven.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "260f67be239e3c4cf6b05955da0c4093",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages/heaven.md",
+      "relativePath": "pages/heaven.md",
+      "extension": "md",
+      "size": 40,
+      "prettySize": "40 B",
+      "modifiedTime": "2018-03-28T00:21:25.877Z",
+      "accessTime": "2018-03-28T00:20:03.942Z",
+      "changeTime": "2018-03-28T00:21:25.877Z",
+      "birthTime": "2018-03-28T00:20:03.942Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/pages",
+      "base": "heaven.md",
+      "ext": ".md",
+      "name": "heaven",
+      "relativeDirectory": "pages",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3940649674911098,
+      "atimeMs": 1522196403941.8162,
+      "mtimeMs": 1522196485876.7812,
+      "ctimeMs": 1522196485876.7812,
+      "birthtimeMs": 1522196403941.8162,
+      "atime": "2018-03-28T00:20:03.942Z",
+      "mtime": "2018-03-28T00:21:25.877Z",
+      "ctime": "2018-03-28T00:21:25.877Z",
+      "birthtime": "2018-03-28T00:20:03.942Z"
+    },
+    "C:/Git/Personal/idols/src/pages/404.js absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages/404.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8857de246387175d85e2e874b3d29120",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages/404.js",
+      "relativePath": "pages/404.js",
+      "extension": "js",
+      "size": 208,
+      "prettySize": "208 B",
+      "modifiedTime": "2018-03-27T23:36:26.984Z",
+      "accessTime": "2018-03-27T23:36:26.984Z",
+      "changeTime": "2018-03-27T23:36:26.984Z",
+      "birthTime": "2018-03-27T23:36:26.984Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/pages",
+      "base": "404.js",
+      "ext": ".js",
+      "name": "404",
+      "relativeDirectory": "pages",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1970324838055682,
+      "atimeMs": 1522193786983.5728,
+      "mtimeMs": 1522193786983.5728,
+      "ctimeMs": 1522193786983.5728,
+      "birthtimeMs": 1522193786983.5728,
+      "atime": "2018-03-27T23:36:26.984Z",
+      "mtime": "2018-03-27T23:36:26.984Z",
+      "ctime": "2018-03-27T23:36:26.984Z",
+      "birthtime": "2018-03-27T23:36:26.984Z"
+    },
+    "C:/Git/Personal/idols/src/pages/index.js absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e015c22bb4e59da2765ffdfee1c73869",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages/index.js",
+      "relativePath": "pages/index.js",
+      "extension": "js",
+      "size": 365,
+      "prettySize": "365 B",
+      "modifiedTime": "2018-03-28T02:59:28.943Z",
+      "accessTime": "2018-03-27T23:36:26.985Z",
+      "changeTime": "2018-03-28T02:59:28.943Z",
+      "birthTime": "2018-03-27T23:36:26.985Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "pages",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 5910974512004927,
+      "atimeMs": 1522193786984.5752,
+      "mtimeMs": 1522205968942.703,
+      "ctimeMs": 1522205968942.703,
+      "birthtimeMs": 1522193786984.5752,
+      "atime": "2018-03-27T23:36:26.985Z",
+      "mtime": "2018-03-28T02:59:28.943Z",
+      "ctime": "2018-03-28T02:59:28.943Z",
+      "birthtime": "2018-03-27T23:36:26.985Z"
+    },
+    "C:/Git/Personal/idols/src/pages/pleasure.md absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages/pleasure.md absPath of file",
+      "children": [
+        "C:/Git/Personal/idols/src/pages/pleasure.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "083461b13ee9850113df769406afaa25",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages/pleasure.md",
+      "relativePath": "pages/pleasure.md",
+      "extension": "md",
+      "size": 54,
+      "prettySize": "54 B",
+      "modifiedTime": "2018-03-27T23:36:26.985Z",
+      "accessTime": "2018-03-27T23:36:26.985Z",
+      "changeTime": "2018-03-27T23:36:26.985Z",
+      "birthTime": "2018-03-27T23:36:26.985Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/pages",
+      "base": "pleasure.md",
+      "ext": ".md",
+      "name": "pleasure",
+      "relativeDirectory": "pages",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1970324838056018,
+      "atimeMs": 1522193786985.139,
+      "mtimeMs": 1522193786985.4407,
+      "ctimeMs": 1522193786985.4407,
+      "birthtimeMs": 1522193786985.139,
+      "atime": "2018-03-27T23:36:26.985Z",
+      "mtime": "2018-03-27T23:36:26.985Z",
+      "ctime": "2018-03-27T23:36:26.985Z",
+      "birthtime": "2018-03-27T23:36:26.985Z"
+    },
+    "C:/Git/Personal/idols/src/pages/relationship.md absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages/relationship.md absPath of file",
+      "children": [
+        "C:/Git/Personal/idols/src/pages/relationship.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6dfbe954bf50648c19c56d4ca606ec36",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages/relationship.md",
+      "relativePath": "pages/relationship.md",
+      "extension": "md",
+      "size": 62,
+      "prettySize": "62 B",
+      "modifiedTime": "2018-03-28T03:36:15.830Z",
+      "accessTime": "2018-03-27T23:36:26.985Z",
+      "changeTime": "2018-03-28T03:36:15.830Z",
+      "birthTime": "2018-03-27T23:36:26.985Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/pages",
+      "base": "relationship.md",
+      "ext": ".md",
+      "name": "relationship",
+      "relativeDirectory": "pages",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2251799814766684,
+      "atimeMs": 1522193786985.4407,
+      "mtimeMs": 1522208175829.9492,
+      "ctimeMs": 1522208175829.9492,
+      "birthtimeMs": 1522193786985.4407,
+      "atime": "2018-03-27T23:36:26.985Z",
+      "mtime": "2018-03-28T03:36:15.830Z",
+      "ctime": "2018-03-28T03:36:15.830Z",
+      "birthtime": "2018-03-27T23:36:26.985Z"
+    },
+    "C:/Git/Personal/idols/src/pages/next.md absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages/next.md absPath of file",
+      "children": [
+        "C:/Git/Personal/idols/src/pages/next.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f65763c2c36cf9011d97f93a8d09c518",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages/next.md",
+      "relativePath": "pages/next.md",
+      "extension": "md",
+      "size": 48,
+      "prettySize": "48 B",
+      "modifiedTime": "2018-03-28T00:19:42.732Z",
+      "accessTime": "2018-03-28T00:19:10.434Z",
+      "changeTime": "2018-03-28T00:19:42.732Z",
+      "birthTime": "2018-03-28T00:19:10.434Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/pages",
+      "base": "next.md",
+      "ext": ".md",
+      "name": "next",
+      "relativeDirectory": "pages",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 844424931504128,
+      "atimeMs": 1522196350434.1099,
+      "mtimeMs": 1522196382731.759,
+      "ctimeMs": 1522196382731.759,
+      "birthtimeMs": 1522196350434.1099,
+      "atime": "2018-03-28T00:19:10.434Z",
+      "mtime": "2018-03-28T00:19:42.732Z",
+      "ctime": "2018-03-28T00:19:42.732Z",
+      "birthtime": "2018-03-28T00:19:10.434Z"
+    },
+    "C:/Git/Personal/idols/src/pages/significance.md absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages/significance.md absPath of file",
+      "children": [
+        "C:/Git/Personal/idols/src/pages/significance.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "9a471adb83df8e823c369b65eb3dff03",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages/significance.md",
+      "relativePath": "pages/significance.md",
+      "extension": "md",
+      "size": 52,
+      "prettySize": "52 B",
+      "modifiedTime": "2018-03-27T23:36:26.986Z",
+      "accessTime": "2018-03-27T23:36:26.986Z",
+      "changeTime": "2018-03-27T23:36:26.986Z",
+      "birthTime": "2018-03-27T23:36:26.986Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/pages",
+      "base": "significance.md",
+      "ext": ".md",
+      "name": "significance",
+      "relativeDirectory": "pages",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 1970324838056110,
+      "atimeMs": 1522193786985.7363,
+      "mtimeMs": 1522193786986.2031,
+      "ctimeMs": 1522193786986.2031,
+      "birthtimeMs": 1522193786985.7363,
+      "atime": "2018-03-27T23:36:26.986Z",
+      "mtime": "2018-03-27T23:36:26.986Z",
+      "ctime": "2018-03-27T23:36:26.986Z",
+      "birthtime": "2018-03-27T23:36:26.986Z"
+    },
+    "C:/Git/Personal/idols/src/pages/parents.md absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages/parents.md absPath of file",
+      "children": [
+        "C:/Git/Personal/idols/src/pages/parents.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "5e7bb45bd51cee953afc0ce6b31f020b",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages/parents.md",
+      "relativePath": "pages/parents.md",
+      "extension": "md",
+      "size": 63,
+      "prettySize": "63 B",
+      "modifiedTime": "2018-03-27T23:36:26.985Z",
+      "accessTime": "2018-03-27T23:36:26.985Z",
+      "changeTime": "2018-03-27T23:36:26.985Z",
+      "birthTime": "2018-03-27T23:36:26.985Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/pages",
+      "base": "parents.md",
+      "ext": ".md",
+      "name": "parents",
+      "relativeDirectory": "pages",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 3940649675030488,
+      "atimeMs": 1522193786984.8218,
+      "mtimeMs": 1522193786985.139,
+      "ctimeMs": 1522193786985.139,
+      "birthtimeMs": 1522193786984.8218,
+      "atime": "2018-03-27T23:36:26.985Z",
+      "mtime": "2018-03-27T23:36:26.985Z",
+      "ctime": "2018-03-27T23:36:26.985Z",
+      "birthtime": "2018-03-27T23:36:26.985Z"
+    },
+    "C:/Git/Personal/idols/src/templates/idols.module.css absPath of file": {
+      "id": "C:/Git/Personal/idols/src/templates/idols.module.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d4355f527cd38bc65c49550945aa2db5",
+        "mediaType": "text/css",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/templates/idols.module.css",
+      "relativePath": "templates/idols.module.css",
+      "extension": "css",
+      "size": 1293,
+      "prettySize": "1.29 kB",
+      "modifiedTime": "2018-03-28T03:34:26.354Z",
+      "accessTime": "2018-03-27T23:36:26.986Z",
+      "changeTime": "2018-03-28T03:34:26.354Z",
+      "birthTime": "2018-03-27T23:36:26.986Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/templates",
+      "base": "idols.module.css",
+      "ext": ".css",
+      "name": "idols.module",
+      "relativeDirectory": "templates",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2251799814766890,
+      "atimeMs": 1522193786986.4849,
+      "mtimeMs": 1522208066354.2095,
+      "ctimeMs": 1522208066354.2095,
+      "birthtimeMs": 1522193786986.4849,
+      "atime": "2018-03-27T23:36:26.986Z",
+      "mtime": "2018-03-28T03:34:26.354Z",
+      "ctime": "2018-03-28T03:34:26.354Z",
+      "birthtime": "2018-03-27T23:36:26.986Z"
+    },
+    "C:/Git/Personal/idols/src/pages/success.md absPath of file": {
+      "id": "C:/Git/Personal/idols/src/pages/success.md absPath of file",
+      "children": [
+        "C:/Git/Personal/idols/src/pages/success.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "3cf51b951314d0c5058e2205cadc9145",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/pages/success.md",
+      "relativePath": "pages/success.md",
+      "extension": "md",
+      "size": 51,
+      "prettySize": "51 B",
+      "modifiedTime": "2018-03-27T23:36:26.986Z",
+      "accessTime": "2018-03-27T23:36:26.986Z",
+      "changeTime": "2018-03-27T23:36:26.986Z",
+      "birthTime": "2018-03-27T23:36:26.986Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/pages",
+      "base": "success.md",
+      "ext": ".md",
+      "name": "success",
+      "relativeDirectory": "pages",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2533274791477469,
+      "atimeMs": 1522193786986.2031,
+      "mtimeMs": 1522193786986.4849,
+      "ctimeMs": 1522193786986.4849,
+      "birthtimeMs": 1522193786986.2031,
+      "atime": "2018-03-27T23:36:26.986Z",
+      "mtime": "2018-03-27T23:36:26.986Z",
+      "ctime": "2018-03-27T23:36:26.986Z",
+      "birthtime": "2018-03-27T23:36:26.986Z"
+    },
+    "C:/Git/Personal/idols/src/templates/idols.module.css.map absPath of file": {
+      "id": "C:/Git/Personal/idols/src/templates/idols.module.css.map absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "e20dc5aac5e24cdb22f1e52567921ec0",
+        "mediaType": "application/json",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/templates/idols.module.css.map",
+      "relativePath": "templates/idols.module.css.map",
+      "extension": "map",
+      "size": 1140,
+      "prettySize": "1.14 kB",
+      "modifiedTime": "2018-03-28T03:34:26.368Z",
+      "accessTime": "2018-03-27T23:36:26.986Z",
+      "changeTime": "2018-03-28T03:34:26.368Z",
+      "birthTime": "2018-03-27T23:36:26.986Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/templates",
+      "base": "idols.module.css.map",
+      "ext": ".map",
+      "name": "idols.module.css",
+      "relativeDirectory": "templates",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2814749768188283,
+      "atimeMs": 1522193786986.4849,
+      "mtimeMs": 1522208066367.7456,
+      "ctimeMs": 1522208066367.7456,
+      "birthtimeMs": 1522193786986.4849,
+      "atime": "2018-03-27T23:36:26.986Z",
+      "mtime": "2018-03-28T03:34:26.368Z",
+      "ctime": "2018-03-28T03:34:26.368Z",
+      "birthtime": "2018-03-27T23:36:26.986Z"
+    },
+    "C:/Git/Personal/idols/src/templates/idols.module.scss absPath of file": {
+      "id": "C:/Git/Personal/idols/src/templates/idols.module.scss absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "4710cabff146ab77ca8e4e1528096f42",
+        "mediaType": "text/x-scss",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/templates/idols.module.scss",
+      "relativePath": "templates/idols.module.scss",
+      "extension": "scss",
+      "size": 2354,
+      "prettySize": "2.35 kB",
+      "modifiedTime": "2018-03-28T03:34:25.889Z",
+      "accessTime": "2018-03-27T23:36:26.987Z",
+      "changeTime": "2018-03-28T03:34:25.889Z",
+      "birthTime": "2018-03-27T23:36:26.987Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/templates",
+      "base": "idols.module.scss",
+      "ext": ".scss",
+      "name": "idols.module",
+      "relativeDirectory": "templates",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2533274791477636,
+      "atimeMs": 1522193786987.489,
+      "mtimeMs": 1522208065888.822,
+      "ctimeMs": 1522208065888.822,
+      "birthtimeMs": 1522193786987.489,
+      "atime": "2018-03-27T23:36:26.987Z",
+      "mtime": "2018-03-28T03:34:25.889Z",
+      "ctime": "2018-03-28T03:34:25.889Z",
+      "birthtime": "2018-03-27T23:36:26.987Z"
+    },
+    "C:/Git/Personal/idols/src/templates/idol.js absPath of file": {
+      "id": "C:/Git/Personal/idols/src/templates/idol.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f97451fcdbdc629b4481893bd55152c4",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "C:/Git/Personal/idols/src/templates/idol.js",
+      "relativePath": "templates/idol.js",
+      "extension": "js",
+      "size": 2114,
+      "prettySize": "2.11 kB",
+      "modifiedTime": "2018-03-28T03:10:56.308Z",
+      "accessTime": "2018-03-27T23:36:26.986Z",
+      "changeTime": "2018-03-28T03:10:56.308Z",
+      "birthTime": "2018-03-27T23:36:26.986Z",
+      "root": "C:/",
+      "dir": "C:/Git/Personal/idols/src/templates",
+      "base": "idol.js",
+      "ext": ".js",
+      "name": "idol",
+      "relativeDirectory": "templates",
+      "dev": 1153554860,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 0,
+      "gid": 0,
+      "rdev": 0,
+      "ino": 2251799814766881,
+      "atimeMs": 1522193786986.4849,
+      "mtimeMs": 1522206656308.367,
+      "ctimeMs": 1522206656308.367,
+      "birthtimeMs": 1522193786986.4849,
+      "atime": "2018-03-27T23:36:26.986Z",
+      "mtime": "2018-03-28T03:10:56.308Z",
+      "ctime": "2018-03-28T03:10:56.308Z",
+      "birthtime": "2018-03-27T23:36:26.986Z"
+    },
+    "C:/Git/Personal/idols/src/pages/parents.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Git/Personal/idols/src/pages/parents.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Git/Personal/idols/src/pages/parents.md absPath of file",
+      "internal": {
+        "content": "---\r\ntitle: \"Parental Approval\"\r\ndate: \"2004\"\r\n---\r\n\r\n2004-2012",
+        "type": "MarkdownRemark",
+        "contentDigest": "2c1d59faaa0cefed2315fab62e474669",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Parental Approval",
+        "date": "2004",
+        "_PARENT": "C:/Git/Personal/idols/src/pages/parents.md absPath of file",
+        "parent": "C:/Git/Personal/idols/src/pages/parents.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "C:/Git/Personal/idols/src/pages/parents.md",
+      "fields": {
+        "slug": "/parents/"
+      }
+    },
+    "C:/Git/Personal/idols/src/pages/significance.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Git/Personal/idols/src/pages/significance.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Git/Personal/idols/src/pages/significance.md absPath of file",
+      "internal": {
+        "content": "---\r\ntitle: \"Significace\"\r\ndate: \"2018\"\r\n---\r\n\r\n2018",
+        "type": "MarkdownRemark",
+        "contentDigest": "303412eb4ffc8ff19088e44bf7e68928",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Significace",
+        "date": "2018",
+        "_PARENT": "C:/Git/Personal/idols/src/pages/significance.md absPath of file",
+        "parent": "C:/Git/Personal/idols/src/pages/significance.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "C:/Git/Personal/idols/src/pages/significance.md",
+      "fields": {
+        "slug": "/significance/"
+      }
+    },
+    "C:/Git/Personal/idols/src/pages/heaven.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Git/Personal/idols/src/pages/heaven.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Git/Personal/idols/src/pages/heaven.md absPath of file",
+      "internal": {
+        "content": "---\r\ntitle: \"∞\"\r\ndate: \"2020\"\r\n---\r\n\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "6198ab5d2e663477a800c1b2f0757960",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "∞",
+        "date": "2020",
+        "_PARENT": "C:/Git/Personal/idols/src/pages/heaven.md absPath of file",
+        "parent": "C:/Git/Personal/idols/src/pages/heaven.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "C:/Git/Personal/idols/src/pages/heaven.md",
+      "fields": {
+        "slug": "/heaven/"
+      }
+    },
+    "C:/Git/Personal/idols/src/pages/pleasure.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Git/Personal/idols/src/pages/pleasure.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Git/Personal/idols/src/pages/pleasure.md absPath of file",
+      "internal": {
+        "content": "---\r\ntitle: \"Pleasure\"\r\ndate: \"2012\"\r\n---\r\n\r\n2012-2017",
+        "type": "MarkdownRemark",
+        "contentDigest": "aebbee522a80060a44f96973cfee58fb",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Pleasure",
+        "date": "2012",
+        "_PARENT": "C:/Git/Personal/idols/src/pages/pleasure.md absPath of file",
+        "parent": "C:/Git/Personal/idols/src/pages/pleasure.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "C:/Git/Personal/idols/src/pages/pleasure.md",
+      "fields": {
+        "slug": "/pleasure/"
+      }
+    },
+    "C:/Git/Personal/idols/src/pages/relationship.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Git/Personal/idols/src/pages/relationship.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Git/Personal/idols/src/pages/relationship.md absPath of file",
+      "internal": {
+        "content": "---\r\ntitle: \"Relationship\"\r\ndate: \"2016\"\r\n---\r\n\r\n2016-2017\r\n\r\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "c551791603866ff0a55f10100eddb73b",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Relationship",
+        "date": "2016",
+        "_PARENT": "C:/Git/Personal/idols/src/pages/relationship.md absPath of file",
+        "parent": "C:/Git/Personal/idols/src/pages/relationship.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "C:/Git/Personal/idols/src/pages/relationship.md",
+      "fields": {
+        "slug": "/relationship/"
+      }
+    },
+    "C:/Git/Personal/idols/src/pages/next.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Git/Personal/idols/src/pages/next.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Git/Personal/idols/src/pages/next.md absPath of file",
+      "internal": {
+        "content": "---\r\ntitle: \"Next\"\r\ndate: \"2019\"\r\n---\r\n\r\n2018 - ",
+        "type": "MarkdownRemark",
+        "contentDigest": "da33659d958cd5c97dda116e2bb44e02",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Next",
+        "date": "2019",
+        "_PARENT": "C:/Git/Personal/idols/src/pages/next.md absPath of file",
+        "parent": "C:/Git/Personal/idols/src/pages/next.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "C:/Git/Personal/idols/src/pages/next.md",
+      "fields": {
+        "slug": "/next/"
+      }
+    },
+    "C:/Git/Personal/idols/src/pages/success.md absPath of file >>> MarkdownRemark": {
+      "id": "C:/Git/Personal/idols/src/pages/success.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "C:/Git/Personal/idols/src/pages/success.md absPath of file",
+      "internal": {
+        "content": "---\r\ntitle: \"Success\"\r\ndate: \"2017\"\r\n---\r\n2017-2018",
+        "type": "MarkdownRemark",
+        "contentDigest": "1108e4ef04279a4c4d90fb8cb76b493c",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Success",
+        "date": "2017",
+        "_PARENT": "C:/Git/Personal/idols/src/pages/success.md absPath of file",
+        "parent": "C:/Git/Personal/idols/src/pages/success.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "C:/Git/Personal/idols/src/pages/success.md",
+      "fields": {
+        "slug": "/success/"
+      }
+    },
+    "SitePage /parents/": {
+      "layout": "index",
+      "jsonName": "parents.json",
+      "internalComponentName": "ComponentParents",
+      "path": "/parents/",
+      "component": "C:/Git/Personal/idols/src/templates/idol.js",
+      "componentChunkName": "component---src-templates-idol-js",
+      "context": {
+        "slug": "/parents/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Git/Personal/idols/src/templates/idol.js",
+      "id": "SitePage /parents/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "93dd961b9976c39ff0c8c0019b8c2850",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /significance/": {
+      "layout": "index",
+      "jsonName": "significance.json",
+      "internalComponentName": "ComponentSignificance",
+      "path": "/significance/",
+      "component": "C:/Git/Personal/idols/src/templates/idol.js",
+      "componentChunkName": "component---src-templates-idol-js",
+      "context": {
+        "slug": "/significance/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Git/Personal/idols/src/templates/idol.js",
+      "id": "SitePage /significance/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5cf55a59a16621546036143b2171e82f",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /heaven/": {
+      "layout": "index",
+      "jsonName": "heaven.json",
+      "internalComponentName": "ComponentHeaven",
+      "path": "/heaven/",
+      "component": "C:/Git/Personal/idols/src/templates/idol.js",
+      "componentChunkName": "component---src-templates-idol-js",
+      "context": {
+        "slug": "/heaven/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Git/Personal/idols/src/templates/idol.js",
+      "id": "SitePage /heaven/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "518cfe3f0c5830c5e1780c96111a7469",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /pleasure/": {
+      "layout": "index",
+      "jsonName": "pleasure.json",
+      "internalComponentName": "ComponentPleasure",
+      "path": "/pleasure/",
+      "component": "C:/Git/Personal/idols/src/templates/idol.js",
+      "componentChunkName": "component---src-templates-idol-js",
+      "context": {
+        "slug": "/pleasure/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Git/Personal/idols/src/templates/idol.js",
+      "id": "SitePage /pleasure/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f6ac2ed55a9e4e177f77c303f26d8e1a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /relationship/": {
+      "layout": "index",
+      "jsonName": "relationship.json",
+      "internalComponentName": "ComponentRelationship",
+      "path": "/relationship/",
+      "component": "C:/Git/Personal/idols/src/templates/idol.js",
+      "componentChunkName": "component---src-templates-idol-js",
+      "context": {
+        "slug": "/relationship/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Git/Personal/idols/src/templates/idol.js",
+      "id": "SitePage /relationship/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2e7e9fc790ef6d4093e6714b28f61b20",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /next/": {
+      "layout": "index",
+      "jsonName": "next.json",
+      "internalComponentName": "ComponentNext",
+      "path": "/next/",
+      "component": "C:/Git/Personal/idols/src/templates/idol.js",
+      "componentChunkName": "component---src-templates-idol-js",
+      "context": {
+        "slug": "/next/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Git/Personal/idols/src/templates/idol.js",
+      "id": "SitePage /next/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "724a03e2731686074ba8bcd337870bc6",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /success/": {
+      "layout": "index",
+      "jsonName": "success.json",
+      "internalComponentName": "ComponentSuccess",
+      "path": "/success/",
+      "component": "C:/Git/Personal/idols/src/templates/idol.js",
+      "componentChunkName": "component---src-templates-idol-js",
+      "context": {
+        "slug": "/success/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "C:/Git/Personal/idols/src/templates/idol.js",
+      "id": "SitePage /success/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8f5b48e6bbe654db01a6cf2fbca4bc2a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "C:/Git/Personal/idols/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Git/Personal/idols/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d3ba877178f4618aae1b8a6e6008b32a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "C:/Git/Personal/idols/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "C:/Git/Personal/idols/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "29921a8188b874b64e77368055e49e47",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "C:/Git/Personal/idols/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "C:/Git/Personal/idols/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "81e71f46e25ba4572897cf7fdc073be7",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "77fccc0d9bf4f7ab4c0771bcaa9937e4"
+  },
+  "componentDataDependencies": {
+    "nodes": {
+      "C:/Git/Personal/idols/src/pages/heaven.md absPath of file >>> MarkdownRemark": [
+        "/heaven/"
+      ],
+      "C:/Git/Personal/idols/src/pages/significance.md absPath of file >>> MarkdownRemark": [
+        "/significance/"
+      ],
+      "C:/Git/Personal/idols/src/pages/parents.md absPath of file >>> MarkdownRemark": [
+        "/parents/"
+      ],
+      "C:/Git/Personal/idols/src/pages/pleasure.md absPath of file >>> MarkdownRemark": [
+        "/pleasure/"
+      ],
+      "C:/Git/Personal/idols/src/pages/relationship.md absPath of file >>> MarkdownRemark": [
+        "/relationship/"
+      ],
+      "C:/Git/Personal/idols/src/pages/success.md absPath of file >>> MarkdownRemark": [
+        "/success/"
+      ],
+      "C:/Git/Personal/idols/src/pages/next.md absPath of file >>> MarkdownRemark": [
+        "/next/"
+      ]
+    },
+    "connections": {
+      "MarkdownRemark": [
+        "/heaven/",
+        "/significance/",
+        "/parents/",
+        "/pleasure/",
+        "/relationship/",
+        "/success/",
+        "/next/"
+      ]
+    }
+  }
+}
