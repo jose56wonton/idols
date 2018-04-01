@@ -45,40 +45,14 @@ class App extends Component {
     if (this.state.current !== this.state.idols.length - 1) {
       this.setState({
         current: this.state.current + 1,
-        classes: "phase-1"
       });
-      setTimeout(()=>{
-        this.setState({classes:"phase-2"})
-      },500);
-      setTimeout(()=>{
-        this.setState({classes:"phase-3"})
-      },1000);
-      setTimeout(()=>{
-        this.setState({classes:"phase-4"})
-      },1500);
-      setTimeout(()=>{
-        this.setState({classes:""})
-      },2000);
     }
   };
   left = () => {
     if (this.state.current !== 0) {
       this.setState({
-        current: this.state.current - 1,
-        classes: "phase-1"
+        current: this.state.current - 1
       });
-      setTimeout(()=>{
-        this.setState({classes:"phase-2"})
-      },500);
-      setTimeout(()=>{
-        this.setState({classes:"phase-3"})
-      },1000);
-      setTimeout(()=>{
-        this.setState({classes:"phase-4"})
-      },1500);
-      setTimeout(()=>{
-        this.setState({classes:""})
-      },2000);
     }
   };
   render() {

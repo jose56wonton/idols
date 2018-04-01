@@ -23,11 +23,6 @@
   right: 0;
   left: 0; }
 
-.phase-1-button, .phase-2-button, .phase-3-button {
-  padding: 0;
-  top: 50%;
-  bottom: 50%; }
-
 .left {
   margin: 0;
   position: fixed;
