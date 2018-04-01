@@ -69,16 +69,20 @@ class App extends Component {
               résultats et vos photos pendant l’effort !
             </p>
             <div className="row">
-              <a className="ncie" onClick={this.left}>
-                <span className="hover"></span>
-                <span className="line"></span>
-                <span>left</span>
-              </a>
-              <a className="ncie" onClick={this.right}>
-                <span className="hover"></span>
-                <span className="line"></span>
-                <span>right</span>
-              </a>
+              <div className="a-wrapper">
+                <a className="ncie" onClick={this.left}>
+                  <span className="hover" />
+                  <span className="line" />
+                  <span className="text">left</span>
+                </a>
+              </div>
+              <div className="a-wrapper">
+                <a className="ncie" onClick={this.right}>
+                  <span className="hover" />
+                  <span className="line" />
+                  <span className="text">right</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>

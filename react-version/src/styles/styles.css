@@ -26,41 +26,49 @@
     font-size: 24px;
     padding: 2px 24%; }
   .card .row {
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100%;
     padding: 80px 0; }
+    .card .row .a-wrapper {
+      position: relative; }
     .card .row a {
-      position: relative;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       cursor: pointer;
       width: 230px;
       height: 120px;
       border: 3px solid #222222;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       background-color: #f1f2f2; }
-      .card .row a span {
+      .card .row a .text {
         font-size: 24px;
         font-weight: bold;
-        text-transform: uppercase; }
-      .card .row a .line {
-        background-color: #f7ed5c;
+        text-transform: uppercase;
         position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+      .card .row a .line {
+        position: absolute;
+        left: 0;
+        background-color: #f7ed5c;
         height: 30px;
-        transform: translateX(-100%);
-        transition: height 1s;
-        width: 4px;
-        left: 0px; }
+        transition: height 0.5s;
+        width: 4px; }
       .card .row a .hover {
         height: 126px;
         position: absolute;
         left: 0;
-        transform: translateX(-100%);
-        width: 4px;
+        right: 100%;
+        transition: right 0.5s 0.5s;
         background-color: #f7ed5c; }
     .card .row a:hover .line {
       height: 126px; }
+    .card .row a:hover .hover {
+      right: 0; }
 
 /*# sourceMappingURL=styles.css.map */
