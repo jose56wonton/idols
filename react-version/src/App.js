@@ -44,7 +44,7 @@ class App extends Component {
   right = () => {
     if (this.state.current !== this.state.idols.length - 1) {
       this.setState({
-        current: this.state.current + 1,
+        current: this.state.current + 1
       });
     }
   };
@@ -54,26 +54,48 @@ class App extends Component {
         current: this.state.current - 1
       });
     }
+    console.log("ncie");
   };
   render() {
     const current = this.state.current;
     const idol = this.state.idols[current];
     return (
       <div className="page">
-        <Button
-          position="left"
-          action={this.left}
-          classes={this.state.classes}
-        />
-        <Card title={idol.title} sub={idol.sub} classes={this.state.classes}/>
-        <Button
-          position="right"
-          action={this.right}
-          classes={this.state.classes}
-        />
+        <div className="container">
+          <div className="card">
+            <h1>Finish Line</h1>
+            <p>
+              La course est terminée, bravo à tous. Venez consulter vos
+              résultats et vos photos pendant l’effort !
+            </p>
+            <div className="row">
+              <a className="ncie" onClick={this.left}>
+                <span className="hover"></span>
+                <span className="line"></span>
+                <span>left</span>
+              </a>
+              <a className="ncie" onClick={this.right}>
+                <span className="hover"></span>
+                <span className="line"></span>
+                <span>right</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
 }
 
 export default App;
+
+// <Button
+// position="left"
+// action={this.left}
+// classes={this.state.classes}
+// />
+// <Card title={idol.title} sub={idol.sub} classes={this.state.classes}/>
+// <Button
+// position="right"
+// action={this.right}
+// classes={this.state.classes}

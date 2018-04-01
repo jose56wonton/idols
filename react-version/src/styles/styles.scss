@@ -1,37 +1,110 @@
-$color-0-primary: rgb(5, 4, 4);
-$color-0-secondary: rgb(7, 52, 51);
-$color-0-third: rgb(23, 5, 23);
-$color-1-primary: rgb(13, 11, 12);
-$color-1-secondary: rgb(11, 87, 85);
-$color-1-third: rgb(38, 9, 38);
-$color-2-primary: rgb(21, 19, 20);
-$color-2-secondary: rgb(15, 121, 119);
-$color-2-third: rgb(53, 12, 53);
-$color-3-primary: rgb(30, 26, 27);
-$color-3-secondary: rgb(19, 156, 154);
-$color-3-third: rgb(68, 15, 68);
-$color-4-primary: rgb(38, 33, 35);
-$color-4-secondary: rgb(23, 190, 187);
-$color-4-third: rgb(83, 18, 83);
-$color-5-primary: rgb(46, 40, 42);
-$color-5-secondary: rgb(65, 201, 199);
-$color-5-third: rgb(114, 61, 114);
-$color-6-primary: rgb(84, 79, 80);
-$color-6-secondary: rgb( 86, 207, 205);
-$color-6-third: rgb(129, 82, 129);
-$color-7-primary: rgb(84, 79, 80);
-$color-7-secondary: rgb(  232, 203, 0);
-$color-7-third: rgb(129, 82, 129);
-
-
-.page{
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-Content: center;
-  overflow: hidden;
-  position: relative;
+// $color-0-primary: rgb(5, 4, 4);
+// $color-0-secondary: rgb(7, 52, 51);
+// $color-0-third: rgb(23, 5, 23);
+// $color-1-primary: rgb(13, 11, 12);
+// $color-1-secondary: rgb(11, 87, 85);
+// $color-1-third: rgb(38, 9, 38);
+// $color-2-primary: rgb(21, 19, 20);
+// $color-2-secondary: rgb(15, 121, 119);
+// $color-2-third: rgb(53, 12, 53);
+// $color-3-primary: rgb(30, 26, 27);
+// $color-3-secondary: rgb(19, 156, 154);
+// $color-3-third: rgb(68, 15, 68);
+// $color-4-primary: rgb(38, 33, 35);
+// $color-4-secondary: rgb(23, 190, 187);
+// $color-4-third: rgb(83, 18, 83);
+// $color-5-primary: rgb(46, 40, 42);
+// $color-5-secondary: rgb(65, 201, 199);
+// $color-5-third: rgb(114, 61, 114);
+// $color-6-primary: rgb(84, 79, 80);
+// $color-6-secondary: rgb( 86, 207, 205);
+// $color-6-third: rgb(129, 82, 129);
+// $color-7-primary: rgb(84, 79, 80);
+// $color-7-secondary: rgb(  232, 203, 0);
+// $color-7-third: rgb(129, 82, 129);
+$light: rgb(247, 237, 92);
+$dark: rgb(34, 34, 34);
+$grey: rgb(241, 242, 242);
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-Content: center; //overflow: hidden;
+    position: relative;
 }
 
+.container {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.card {
+    background-color: $grey;
+    color: $dark;
+    margin: 100px auto;
+    width: 100%;
+    text-align: center;
+    h1 {
+        font-size: 85px;
+        text-transform: uppercase;
+        transform: translateY(-50%);
+        color: $light;
+    }
+    p {
+        font-size: 24px;
+        padding: 2px 24%;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+       
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 80px 0 ;
+        a {
+          position: relative;
+            cursor: pointer;
+            width: 230px;
+            height: 120px;
+            border: 3px solid $dark;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:$grey;
+            span{
+              font-size: 24px;
+              font-weight: bold;
+              text-transform: uppercase;
+            }
+            .line{
+              background-color: $light;
+              // width: 4px; 
+               position: absolute;
+              // height: 30px;
+              // left:0;
+              // z-index: 10;
+              height: 30px;
+              transform: translateX(-100%);
+              transition: height 1s;
+              width: 4px;              
+              left: 0px;
+            }
+            .hover{
+              height: 126px;
+              position: absolute;
+              left: 0;
+              transform: translateX(-100%);
+              width:4px;
+              background-color: $light
+            }
+        }
+        a:hover{
+          .line{            
+            height: 126px;
+            
+          }
+        }
+    }
+}
