@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+body {
+  font-family: 'Raleway', sans-serif; }
+
 .page {
   width: 100%;
   height: 100%;
@@ -18,12 +22,13 @@
   width: 100%;
   text-align: center; }
   .card h1 {
-    font-size: 85px;
+    font-size: 100px;
     text-transform: uppercase;
     transform: translateY(-50%);
-    color: #f7ed5c; }
+    color: #f7ed5c;
+    font-weight: 700; }
   .card p {
-    font-size: 24px;
+    font-size: 40px;
     padding: 2px 24%; }
   .card .row {
     box-sizing: border-box;
@@ -46,7 +51,7 @@
       background-color: #f1f2f2; }
       .card .row a .text {
         font-size: 24px;
-        font-weight: bold;
+        font-weight: 700;
         text-transform: uppercase;
         position: absolute;
         top: 50%;
@@ -103,5 +108,50 @@
   to {
     left: 100%;
     right: 0; } }
+svg,
+svg circle {
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  z-index: -10;
+  fill: #f7ed5c; }
+
+@keyframes from0to360 {
+  from {
+    transform: rotate(0); }
+  to {
+    transform: rotate(360deg); } }
+#Circle1 {
+  animation: from0to360 1s linear infinite;
+  cx: 150;
+  cy: 145;
+  r: 100;
+  transform-origin: 145px 150px; }
+
+@keyframes from360to0 {
+  from {
+    transform: rotate(360deg); }
+  to {
+    transform: rotate(0deg); } }
+#Circle2 {
+  animation: from360to0 2s linear infinite;
+  cx: 150;
+  cy: 155;
+  r: 100;
+  transform-origin: 155px 150px; }
+
+#Circle3 {
+  animation: from0to360 3s linear infinite;
+  cx: 145;
+  cy: 150;
+  r: 100;
+  transform-origin: 150px 145px; }
+
+#Circle4 {
+  animation: from360to0 2.5s linear infinite;
+  cx: 155;
+  cy: 150;
+  r: 100;
+  transform-origin: 150px 155px; }
 
 /*# sourceMappingURL=styles.css.map */

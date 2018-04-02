@@ -8,28 +8,33 @@ const idolData = [
     sub: "From bondage to freedom"
   },
   {
-    title: "1",
+    title: "Parents",
     sub: "2004-2012"
   },
+
   {
-    title: "2",
-    sub: "2004-2012"
+    title: "Pleasure",
+    sub: "2012-2017"
   },
   {
-    title: "3",
-    sub: "2004-2012"
+    title: "Relationship",
+    sub: "2016-2017"
   },
   {
-    title: "4",
-    sub: "2004-2012"
+    title: "Success",
+    sub: "2017-2018"
   },
   {
-    title: "Parental Approval",
-    sub: "2004-2012"
+    title: "Significance",
+    sub: "2018"
   },
   {
-    title: "Parental Approval",
-    sub: "2004-2012"
+    title: "Next",
+    sub: "-"
+  },
+  {
+    title: "Heaven",
+    sub: "∞"
   }
 ];
 
@@ -54,19 +59,20 @@ class App extends Component {
         current: this.state.current - 1
       });
     }
-    console.log("ncie");
   };
   render() {
     const current = this.state.current;
     const idol = this.state.idols[current];
+    console.log(idol, current);
     return (
       <div className="page">
         <div className="container">
           <div className="card">
-            <h1>Finish Line</h1>
+            <h1>
+              {idol.title}
+            </h1>
             <p>
-              La course est terminée, bravo à tous. Venez consulter vos
-              résultats et vos photos pendant l’effort !
+              {idol.sub}
             </p>
             <div className="row">
               <div className="a-wrapper">
@@ -84,7 +90,21 @@ class App extends Component {
                 </a>
               </div>
             </div>
+            
           </div>
+          <svg id="organic-blob" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+              </filter>
+            </defs>
+            <circle id="Circle1"></circle>
+            <circle id="Circle2"></circle>
+            <circle id="Circle3"></circle>
+            <circle id="Circle4"></circle>
+          </svg>
         </div>
       </div>
     );
