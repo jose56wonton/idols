@@ -55,14 +55,14 @@ $grey: rgb(241, 242, 242);
     margin: 100px auto;
     width: 100%;
     text-align: center;
-    h1 {
+    .title {
         font-size: 100px;
         text-transform: uppercase;
         transform: translateY(-50%);
         color: $light;
-        font-weight: 700 ;
+        font-weight: 700;
     }
-    p {
+    .sub {
         font-size: 40px;
         padding: 2px 24%;
     }

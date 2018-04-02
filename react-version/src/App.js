@@ -63,15 +63,19 @@ class App extends Component {
   render() {
     const current = this.state.current;
     const idol = this.state.idols[current];
-    console.log(idol, current);
+    const x = idol.title.split('').map((ele)=>{
+      const random = Math.floor(Math.random(10)*10) +1;
+      return <span className={`letter-${random}`}>{ele}</span>
+    })
+    console.log(x);
     return (
       <div className="page">
         <div className="container">
           <div className="card">
-            <h1>
-              {idol.title}
+            <h1 className="title">
+              {x}
             </h1>
-            <p>
+            <p className="sub">
               {idol.sub}
             </p>
             <div className="row">
