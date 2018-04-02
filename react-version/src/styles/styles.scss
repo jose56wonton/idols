@@ -167,13 +167,14 @@ $grey: rgb(241, 242, 242);
       right: 0;
   }
 }
-
+$x-1: random(1000);
+$y-1: random(1000);
 svg,
 svg circle {
   position: absolute;
-  top:500px;
-  left:0px;
-  z-index: -10;
+  top:$x-1 * 1px;
+  left:$y-1 * 1px;
+  z-index: -11;
   fill: $light;
 }
 
@@ -194,7 +195,8 @@ svg circle {
   from{transform:rotate(360deg);}
   to{transform:rotate(0deg);}
 }
-
+$onex: random(1000);
+$oney:random(1000);
 #Circle2 {
   animation: from360to0 2s linear infinite;
   cx: 150;

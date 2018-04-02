@@ -111,9 +111,9 @@ body {
 svg,
 svg circle {
   position: absolute;
-  top: 500px;
-  left: 0px;
-  z-index: -10;
+  top: 521px;
+  left: 618px;
+  z-index: -11;
   fill: #f7ed5c; }
 
 @keyframes from0to360 {
