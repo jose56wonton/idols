@@ -92,7 +92,7 @@ class App extends Component {
             </div>
             
           </div>
-          <svg id="organic-blob" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
+          <svg id="svg-1" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
             <defs>
               <filter id="goo">
                 <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
@@ -100,11 +100,53 @@ class App extends Component {
                 <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
               </filter>
             </defs>
-            <circle id="Circle1"></circle>
-            <circle id="Circle2"></circle>
-            <circle id="Circle3"></circle>
-            <circle id="Circle4"></circle>
+            <circle className="circle1-1"></circle>
+            <circle className="circle1-2"></circle>
+            <circle className="circle1-3"></circle>
+            <circle className="circle1-4"></circle>
           </svg>
+
+          <svg id="svg-2" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+              </filter>
+            </defs>
+            <circle className="circle1"></circle>
+            <circle className="circle2"></circle>
+            <circle className="circle3"></circle>
+            <circle className="circle4"></circle>
+          </svg>
+          <svg id="svg-3" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+              </filter>
+            </defs>
+            <circle className="circle1"></circle>
+            <circle className="circle2"></circle>
+            <circle className="circle3"></circle>
+            <circle className="circle4"></circle>
+          </svg>
+          <svg id="svg-1" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+              </filter>
+            </defs>
+            <circle className="circle1"></circle>
+            <circle className="circle2"></circle>
+            <circle className="circle3"></circle>
+            <circle className="circle4"></circle>
+          </svg>
+          
+          
         </div>
       </div>
     );
