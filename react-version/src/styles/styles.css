@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 body {
-  font-family: 'Raleway', sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 #svg-1 {
   position: absolute;
-  top: 930px;
-  left: 866px;
+  top: 152px;
+  left: 782px;
   z-index: -11;
   fill: #f7ed5c; }
 
@@ -21,8 +21,8 @@ body {
     transform: rotate(0deg); } }
 #svg-2 {
   position: absolute;
-  top: 405px;
-  left: 674px;
+  top: 898px;
+  left: 355px;
   z-index: -11;
   fill: #f7ed5c; }
 
@@ -38,8 +38,8 @@ body {
     transform: rotate(0deg); } }
 #svg-3 {
   position: absolute;
-  top: 548px;
-  left: 822px;
+  top: 893px;
+  left: 361px;
   z-index: -11;
   fill: #f7ed5c; }
 
@@ -88,7 +88,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-Content: center;
+  justify-content: center;
   position: relative; }
 
 .container {
@@ -101,13 +101,15 @@ body {
   margin: 100px auto;
   width: 100%;
   text-align: center; }
-  .card h1 {
+  .card .title {
     font-size: 100px;
     text-transform: uppercase;
     transform: translateY(-50%);
     color: #f7ed5c;
     font-weight: 700; }
-  .card p {
+    .card .title span {
+      display: inline-block; }
+  .card .sub {
     font-size: 40px;
     padding: 2px 24%; }
   .card .row {
@@ -151,15 +153,31 @@ body {
         left: 0;
         right: 100%;
         animation: hover-out 0.3s ease;
-        transition: left 0s linear .5s,right 0s linear 0.5s;
+        transition: left 0s linear 0.5s, right 0s linear 0.5s;
         background-color: #f7ed5c; }
     .card .row a:hover .line {
       animation: line-in 1s ease; }
     .card .row a:hover .hover {
       right: 0;
-      animation: hover-in .3s ease .5s;
+      animation: hover-in 0.3s ease 0.5s;
       transition: right 0s linear 0.5s; }
 
+.letter-1,
+.letter-2,
+.letter-3 {
+  animation: textasdf 2s ease 0s; }
+
+@keyframes textasdf {
+  0%,
+    100% {
+    transform: translate3d(0, 0, 0);
+    opacity: 1; }
+  49.999% {
+    transform: translate3d(0, -120px, 0);
+    opacity: 0; }
+  50.001% {
+    transform: translate3d(0, 120px, 0);
+    opacity: 0; } }
 @keyframes line-out {
   0% {
     height: 0px; }

@@ -23,150 +23,175 @@
 // $color-7-secondary: rgb(  232, 203, 0);
 // $color-7-third: rgb(129, 82, 129);
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
-body{
-  font-family: 'Raleway', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+body {
+  font-family: "Raleway", sans-serif;
 }
 $light: rgb(247, 237, 92);
 $dark: rgb(34, 34, 34);
 $grey: rgb(241, 242, 242);
 
-@import './blobs.scss';
+@import "./blobs.scss";
 .page {
-    display: flex;
+  display: flex;
 
-    width: 100;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-Content: center; //overflow: hidden;
-    position: relative;
-    
+  width: 100;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; //overflow: hidden;
+  position: relative;
 }
 
 .container {
-    width: 100%;
-    max-width: 1000px;
+  width: 100%;
+  max-width: 1000px;
 }
 .card {
-    background-color: $grey;
-    color: $dark;
-    margin: 100px auto;
+  background-color: $grey;
+  color: $dark;
+  margin: 100px auto;
+  width: 100%;
+  text-align: center;
+  .title {
+    font-size: 100px;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+    color: $light;
+    font-weight: 700;
+    span{
+        display: inline-block;
+    }
+  }
+  .sub {
+    font-size: 40px;
+    padding: 2px 24%;
+  }
+  .row {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
-    text-align: center;
-    .title {
-        font-size: 100px;
-        text-transform: uppercase;
-        transform: translateY(-50%);
-        color: $light;
+    padding: 80px 0;
+    .a-wrapper {
+      position: relative;
+    }
+    a {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      width: 230px;
+      height: 120px;
+      border: 3px solid $dark;
+      background-color: $grey;
+      .text {
+        font-size: 24px;
         font-weight: 700;
+        text-transform: uppercase;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .line {
+        position: absolute;
+        left: 0;
+        background-color: $light;
+        height: 30px;
+        transition: height 0.5s;
+        width: 4px;
+
+        animation: line-out 1s ease;
+      }
+      .hover {
+        height: 126px;
+        position: absolute;
+        left: 0;
+        right: 100%;
+        //transition: right 0.5s 0.5s;
+        animation: hover-out 0.3s ease;
+        transition: left 0s linear 0.5s, right 0s linear 0.5s;
+        background-color: $light;
+      }
     }
-    .sub {
-        font-size: 40px;
-        padding: 2px 24%;
+    a:hover {
+      .line {
+        animation: line-in 1s ease;
+      }
+      .hover {
+        right: 0;
+        animation: hover-in 0.3s ease 0.5s;
+        transition: right 0s linear 0.5s;
+      }
     }
-    .row {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 100%;
-        padding: 80px 0;
-        .a-wrapper {
-            position: relative;
-        }
-        a {
-            box-sizing: border-box;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-            width: 230px;
-            height: 120px;
-            border: 3px solid $dark;
-            background-color: $grey;
-            .text {
-                font-size: 24px;
-                font-weight: 700;
-                text-transform: uppercase;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-            }
-            .line {
-                position: absolute;
-                left: 0;
-                background-color: $light;
-                height: 30px;
-                transition: height 0.5s;
-                width: 4px;
-                
-                animation: line-out 1s ease ;
-            }
-            .hover {
-                height: 126px;
-                position: absolute;
-                left: 0;
-                right: 100%;
-                //transition: right 0.5s 0.5s;
-                animation: hover-out .3s ease ;
-                transition: left 0s linear .5s,right 0s linear 0.5s;                
-                background-color: $light;
-            }
-        }
-        a:hover {
-            .line {
-                animation: line-in 1s ease ;                
-            }
-            .hover {
-                right: 0;
-                animation: hover-in .3s ease .5s;
-                transition: right 0s linear .5s
-            }
-        }
+  }
+}
+
+.letter-1,
+.letter-2,
+.letter-3{
+    animation: textasdf 2s ease 0s;
+}
+@keyframes textasdf {
+ 
+    0%,
+    100% {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+    }
+    49.999% {
+      transform: translate3d(0, -120px, 0);
+      opacity: 0;
+    }
+    50.001% {
+      transform: translate3d(0, 120px, 0);
+      opacity: 0;
     }
 }
-@keyframes line-out{
-  0%{
+
+@keyframes line-out {
+  0% {
     height: 0px;
   }
-  50%{
+  50% {
     height: 0px;
   }
-  100%{
+  100% {
     height: 30px;
   }
 }
-@keyframes line-in{
-  0%{
+@keyframes line-in {
+  0% {
     height: 30px;
   }
-  50%{
+  50% {
     height: 126px;
   }
-  100%{
+  100% {
     height: 0;
   }
 }
 @keyframes hover-in {
   from {
-      left: 0;
-      right: 100%;
+    left: 0;
+    right: 100%;
   }
   to {
-      left: 0;
-      right: 0;
+    left: 0;
+    right: 0;
   }
 }
 @keyframes hover-out {
   from {
-      left: 0;
-      right: 0;
+    left: 0;
+    right: 0;
   }
   to {
-      left: 100%;
-      right: 0;
+    left: 100%;
+    right: 0;
   }
 }
