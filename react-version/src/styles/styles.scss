@@ -62,20 +62,17 @@ $grey: rgb(241, 242, 242);
     color: $light;
     font-weight: 700;
     transition: translateY 0s linear .5s;
-    animation: title-in .5s ease ;
   }
-  .title-out{
-    font-size: 100px;
-    text-transform: uppercase;
-    transform: translateY(-50%);
-    color: $light;
-    font-weight: 700;
-    transition: translateY 0s linear .5s;
-    animation: title-out .5s ease ;
+  .text-in{    
+    animation: text-in .5s ease ;
+  }
+  .text-out{
+    animation: text-out .5s ease ;
   }
   .sub {
     font-size: 40px;
     padding: 2px 24%;
+    transform: translateY(-50%);
   }
   .row {
     box-sizing: border-box;
@@ -141,7 +138,7 @@ $grey: rgb(241, 242, 242);
 }
 
 
-@keyframes title-in {    
+@keyframes text-in {    
   0% {
     transform: translate3d(0, 0, 0);      
     opacity: 0;
@@ -151,7 +148,7 @@ $grey: rgb(241, 242, 242);
     opacity: 1;
   }
 }
-@keyframes title-out {    
+@keyframes text-out {    
   0% {
     transform: translate3d(0, -50%, 0);
     opacity: 1;

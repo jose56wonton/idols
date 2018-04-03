@@ -1,9 +1,7 @@
 import React from "react";
-const blobPositions = [
-  {},
-]
+
 const Blob = props => {
-  
+ 
 
   return (
     <svg

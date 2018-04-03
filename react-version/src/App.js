@@ -45,21 +45,21 @@ class App extends Component {
     this.state = {
       current: 0,
       idols: idolData,
-      titleClass: "title",
+      text: "text-in",
       blobs: this.generateBlobArray()
     };
   }
   right = () => {
     if (this.state.current !== this.state.idols.length - 1) {
       this.setState({
-        titleClass: "title-out"
+        text: "text-out"
       });
     }
     setTimeout(() => {
       if (this.state.current !== this.state.idols.length - 1) {
         this.setState({
           current: this.state.current + 1,
-          titleClass: "title",
+          text: "text-in",
           blobs: this.generateBlobArray()
         });
       }
@@ -69,14 +69,14 @@ class App extends Component {
   left = () => {
     if (this.state.current !== 0) {
       this.setState({
-        titleClass: "title-out"
+        text: "text-out"
       });
     }
     setTimeout(() => {
       if (this.state.current !== 0) {
         this.setState({
           current: this.state.current - 1,
-          titleClass: "title",
+          titleClass: "text-in",
           blobs: this.generateBlobArray()
         });
       }
@@ -95,10 +95,10 @@ class App extends Component {
       <div className="page">
         <div className="container">
           <div className="card">
-            <h1 className={this.state.titleClass}>
+            <h1 className={`${this.state.text} title`}>
               {idol.title}
             </h1>
-            <p className="sub">
+            <p className={`${this.state.text} sub`}>
               {idol.sub}
             </p>
             <div className="row">

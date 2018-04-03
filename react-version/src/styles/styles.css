@@ -122,19 +122,15 @@ body {
     transform: translateY(-50%);
     color: #f7ed5c;
     font-weight: 700;
-    transition: translateY 0s linear .5s;
-    animation: title-in 0.5s ease; }
-  .card .title-out {
-    font-size: 100px;
-    text-transform: uppercase;
-    transform: translateY(-50%);
-    color: #f7ed5c;
-    font-weight: 700;
-    transition: translateY 0s linear .5s;
-    animation: title-out 0.5s ease; }
+    transition: translateY 0s linear .5s; }
+  .card .text-in {
+    animation: text-in 0.5s ease; }
+  .card .text-out {
+    animation: text-out 0.5s ease; }
   .card .sub {
     font-size: 40px;
-    padding: 2px 24%; }
+    padding: 2px 24%;
+    transform: translateY(-50%); }
   .card .row {
     box-sizing: border-box;
     display: flex;
@@ -185,14 +181,14 @@ body {
       animation: hover-in 0.3s ease 0.5s;
       transition: right 0s linear 0.5s; }
 
-@keyframes title-in {
+@keyframes text-in {
   0% {
     transform: translate3d(0, 0, 0);
     opacity: 0; }
   100% {
     transform: translate3d(0, -50%, 0);
     opacity: 1; } }
-@keyframes title-out {
+@keyframes text-out {
   0% {
     transform: translate3d(0, -50%, 0);
     opacity: 1; }
