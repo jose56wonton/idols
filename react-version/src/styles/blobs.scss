@@ -59,7 +59,7 @@ $grey: rgb(241, 242, 242);
 .svg-circle{
   position: absolute;  
   fill: $light;
-  transition: top 1s,left 1s;
+  transition: top ease 1s,left ease 1s;
 }
 @keyframes from0to360 {
   from{transform:rotate(0);}

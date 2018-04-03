@@ -51,7 +51,7 @@
 .svg-circle {
   position: absolute;
   fill: #f7ed5c;
-  transition: top 1s,left 1s; }
+  transition: top ease 1s,left ease 1s; }
 
 @keyframes from0to360 {
   from {

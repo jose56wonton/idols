@@ -76,7 +76,7 @@ class App extends Component {
       if (this.state.current !== 0) {
         this.setState({
           current: this.state.current - 1,
-          titleClass: "text-in",
+          text: "text-in",
           blobs: this.generateBlobArray()
         });
       }
