@@ -45,7 +45,8 @@ class App extends Component {
     this.state = {
       current: 0,
       idols: idolData,
-      titleClass: "title"
+      titleClass: "title",
+      blobs: this.generateBlobArray()
     };
   }
   right = () => {
@@ -58,7 +59,8 @@ class App extends Component {
       if (this.state.current !== this.state.idols.length - 1) {
         this.setState({
           current: this.state.current + 1,
-          titleClass: "title"
+          titleClass: "title",
+          blobs: this.generateBlobArray()
         });
       }
     }, 500);
@@ -74,15 +76,21 @@ class App extends Component {
       if (this.state.current !== 0) {
         this.setState({
           current: this.state.current - 1,
-          titleClass: "title"
+          titleClass: "title",
+          blobs: this.generateBlobArray()
         });
       }
     }, 500);
-  };
+  }
+  generateBlobArray = () =>{    
+    return Array.from({length: 4}, () => Math.floor(Math.random() * 10)+1)
+  }
   render() {
     const current = this.state.current;
     const idol = this.state.idols[current];
-    
+    const blobs =  this.state.blobs.map((ele,i) => {
+      return <Blob id={ele} key={i}/>
+    })
     return (
       <div className="page">
         <div className="container">
@@ -110,7 +118,8 @@ class App extends Component {
               </div>
             </div>
           </div>
-          <
+          {blobs}       
+
         </div>
       </div>
     );
@@ -118,68 +127,3 @@ class App extends Component {
 }
 
 export default App;
-
-// <Button
-// position="left"
-// action={this.left}
-// classes={this.state.classes}
-// />
-// <Card title={idol.title} sub={idol.sub} classes={this.state.classes}/>
-// <Button
-// position="right"
-// action={this.right}
-// classes={this.state.classes}
-
-// <svg id="svg-1" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
-// <defs>
-//   <filter id="goo">
-//     <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-//     <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-//     <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
-//   </filter>
-// </defs>
-// <circle className="circle1-1"></circle>
-// <circle className="circle1-2"></circle>
-// <circle className="circle1-3"></circle>
-// <circle className="circle1-4"></circle>
-// </svg>
-
-// <svg id="svg-2" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
-// <defs>
-//   <filter id="goo">
-//     <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-//     <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-//     <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
-//   </filter>
-// </defs>
-// <circle className="circle1"></circle>
-// <circle className="circle2"></circle>
-// <circle className="circle3"></circle>
-// <circle className="circle4"></circle>
-// </svg>
-// <svg id="svg-3" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
-// <defs>
-//   <filter id="goo">
-//     <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-//     <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-//     <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
-//   </filter>
-// </defs>
-// <circle className="circle1"></circle>
-// <circle className="circle2"></circle>
-// <circle className="circle3"></circle>
-// <circle className="circle4"></circle>
-// </svg>
-// <svg id="svg-1" width="300" height="300" xmlns="http://www.w3.org/2000/svg" filter="url(#goo)">
-// <defs>
-//   <filter id="goo">
-//     <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-//     <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
-//     <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
-//   </filter>
-// </defs>
-// <circle className="circle1"></circle>
-// <circle className="circle2"></circle>
-// <circle className="circle3"></circle>
-// <circle className="circle4"></circle>
-// </svg>

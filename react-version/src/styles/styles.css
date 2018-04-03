@@ -4,20 +4,58 @@ body {
 
 #svg-1 {
   top: 549px;
-  left: 73px; }
+  left: 73px;
+  z-index: -11; }
 
 #svg-2 {
-  top: 284px;
-  left: 610px; }
+  top: 570px;
+  left: 560px;
+  z-index: 11; }
 
 #svg-3 {
-  top: 486px;
-  left: 286px; }
+  top: 500px;
+  left: 300px;
+  z-index: -11; }
+
+#svg-4 {
+  top: 400px;
+  left: 860px;
+  z-index: -11; }
+
+#svg-5 {
+  top: 140px;
+  left: 860px;
+  z-index: 12; }
+
+#svg-6 {
+  top: 370px;
+  left: -200px;
+  z-index: 100; }
+
+#svg-7 {
+  top: 370px;
+  left: -200px;
+  z-index: 100; }
+
+#svg-8 {
+  top: 130px;
+  left: -140px;
+  z-index: -100; }
+
+#svg-9 {
+  top: -100px;
+  left: 840px;
+  z-index: -100; }
+
+#svg-10 {
+  top: -60px;
+  left: -30px;
+  z-index: 100; }
 
 .svg-circle {
   position: absolute;
-  z-index: -11;
-  fill: #f7ed5c; }
+  fill: #f7ed5c;
+  transition: top 1s,left 1s; }
 
 @keyframes from0to360 {
   from {
