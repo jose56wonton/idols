@@ -1,41 +1,17 @@
 #svg-1 {
-  position: absolute;
-  top: 215px;
-  left: 863px;
-  z-index: -11;
-  fill: #f7ed5c; }
+  top: 831px;
+  left: 843px; }
 
-@keyframes from0to360 {
-  from {
-    transform: rotate(0); }
-  to {
-    transform: rotate(360deg); } }
-@keyframes from360to0 {
-  from {
-    transform: rotate(360deg); }
-  to {
-    transform: rotate(0deg); } }
 #svg-2 {
-  position: absolute;
-  top: 354px;
-  left: 831px;
-  z-index: -11;
-  fill: #f7ed5c; }
+  top: 616px;
+  left: 848px; }
 
-@keyframes from0to360 {
-  from {
-    transform: rotate(0); }
-  to {
-    transform: rotate(360deg); } }
-@keyframes from360to0 {
-  from {
-    transform: rotate(360deg); }
-  to {
-    transform: rotate(0deg); } }
 #svg-3 {
+  top: 708px;
+  left: 550px; }
+
+.svg-circle {
   position: absolute;
-  top: 45px;
-  left: 157px;
   z-index: -11;
   fill: #f7ed5c; }
 

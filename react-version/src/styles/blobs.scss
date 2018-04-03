@@ -5,13 +5,30 @@ $grey: rgb(241, 242, 242);
 $x-1: random(1001);
 $y-1: random(1001); 
 #svg-1 {
-  position: absolute;
   top:$x-1 * 1px;
   left:$y-1 * 1px;
+}
+
+$x-2: random(1002);
+$y-2: random(1002); 
+#svg-2 {
+  top:$x-2 * 1px;
+  left:$y-2 * 1px;
+}
+
+$x-3: random(1000);
+$y-3: random(1000); 
+#svg-3 {
+  top:$x-3 * 1px;
+  left:$y-3 * 1px;
+}
+
+
+.svg-circle{
+  position: absolute;  
   z-index: -11;
   fill: $light;
 }
-
 @keyframes from0to360 {
   from{transform:rotate(0);}
   to{transform:rotate(360deg);}
@@ -22,45 +39,6 @@ $y-1: random(1001);
 }   
 
  
-
-
-$x-2: random(1002);
-$y-2: random(1002); 
-#svg-2 {
-  position: absolute;
-  top:$x-2 * 1px;
-  left:$y-2 * 1px;
-  z-index: -11;
-  fill: $light;
-}
-
-@keyframes from0to360 {
-  from{transform:rotate(0);}
-  to{transform:rotate(360deg);}
-}
-@keyframes from360to0 {
-  from{transform:rotate(360deg);}
-  to{transform:rotate(0deg);}
-}
-
-$x-3: random(1000);
-$y-3: random(1000); 
-#svg-3 {
-  position: absolute;
-  top:$x-3 * 1px;
-  left:$y-3 * 1px;
-  z-index: -11;
-  fill: $light;
-}
-
-@keyframes from0to360 {
-  from{transform:rotate(0);}
-  to{transform:rotate(360deg);}
-}
-@keyframes from360to0 {
-  from{transform:rotate(360deg);}
-  to{transform:rotate(0deg);}
-}
 .circle1 {
   animation: from0to360 1s linear infinite;
   cx: 150;

@@ -1,4 +1,4 @@
-import "../styles/card.css";
+
 import React, { Component } from "react";
 
 class card extends Component {

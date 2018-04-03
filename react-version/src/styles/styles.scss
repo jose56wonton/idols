@@ -47,6 +47,7 @@ $grey: rgb(241, 242, 242);
 .container {
   width: 100%;
   max-width: 1000px;
+  position: relative;
 }
 .card {
   background-color: $grey;
@@ -60,9 +61,17 @@ $grey: rgb(241, 242, 242);
     transform: translateY(-50%);
     color: $light;
     font-weight: 700;
-    span{
-        display: inline-block;
-    }
+    transition: translateY 0s linear .5s;
+    animation: title-in .5s ease ;
+  }
+  .title-out{
+    font-size: 100px;
+    text-transform: uppercase;
+    transform: translateY(-50%);
+    color: $light;
+    font-weight: 700;
+    transition: translateY 0s linear .5s;
+    animation: title-out .5s ease ;
   }
   .sub {
     font-size: 40px;
@@ -131,26 +140,27 @@ $grey: rgb(241, 242, 242);
   }
 }
 
-.letter-1,
-.letter-2,
-.letter-3{
-    animation: textasdf 2s ease 0s;
+
+@keyframes title-in {    
+  0% {
+    transform: translate3d(0, 0, 0);      
+    opacity: 0;
+  }   
+  100% {
+    transform: translate3d(0, -50%, 0);
+    opacity: 1;
+  }
 }
-@keyframes textasdf {
- 
-    0%,
-    100% {
-      transform: translate3d(0, 0, 0);
-      opacity: 1;
-    }
-    49.999% {
-      transform: translate3d(0, -120px, 0);
-      opacity: 0;
-    }
-    50.001% {
-      transform: translate3d(0, 120px, 0);
-      opacity: 0;
-    }
+@keyframes title-out {    
+  0% {
+    transform: translate3d(0, -50%, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(0, 0, 0);      
+    opacity: 0;
+  }   
+  
 }
 
 @keyframes line-out {
