@@ -5,7 +5,7 @@ const Blob = props => {
   return (
     <svg
       id={`svg-${props.id}`}
-      className="svg-circle"
+      className={`svg-circle svg-circle-${props.current}`}
       width={300}
       height={300}
       xmlns="http://www.w3.org/2000/svg"

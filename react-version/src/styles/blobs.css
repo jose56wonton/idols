@@ -53,6 +53,27 @@
   fill: #f7ed5c;
   transition: all ease 1s; }
 
+.svg-circle-0 {
+  fill: #073433; }
+
+.svg-circle-1 {
+  fill: #c1bcac; }
+
+.svg-circle-2 {
+  fill: #d5d887; }
+
+.svg-circle-3 {
+  fill: #badc93; }
+
+.svg-circle-4 {
+  fill: #ee998c; }
+
+.svg-circle-5 {
+  fill: #17bebb; }
+
+.svg-circle-6 {
+  fill: #b293b7; }
+
 @keyframes from0to360 {
   from {
     transform: rotate(0); }

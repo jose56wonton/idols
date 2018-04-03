@@ -57,6 +57,27 @@ body {
   fill: #f7ed5c;
   transition: all ease 1s; }
 
+.svg-circle-0 {
+  fill: #073433; }
+
+.svg-circle-1 {
+  fill: #c1bcac; }
+
+.svg-circle-2 {
+  fill: #d5d887; }
+
+.svg-circle-3 {
+  fill: #badc93; }
+
+.svg-circle-4 {
+  fill: #ee998c; }
+
+.svg-circle-5 {
+  fill: #17bebb; }
+
+.svg-circle-6 {
+  fill: #b293b7; }
+
 @keyframes from0to360 {
   from {
     transform: rotate(0); }
@@ -172,9 +193,9 @@ body {
       .card .title {
         font-size: 100px; } }
   .card .text-in {
-    animation: text-in 0.5s ease; }
+    animation: text-in .5s ease; }
   .card .text-out {
-    animation: text-out 0.5s ease; }
+    animation: text-out .5s ease; }
   .card .sub {
     font-size: 25px;
     padding: 0px 24%;
@@ -232,7 +253,7 @@ body {
         left: 0;
         background-color: #f7ed5c;
         height: 25%;
-        transition: height 0.5s;
+        transition: height 0.5s,background-color .5s;
         width: 4px;
         animation: line-out 1s ease; }
       .card .row a .hover {
@@ -241,7 +262,7 @@ body {
         left: 0;
         right: 100%;
         animation: hover-out 0.3s ease;
-        transition: left 0s linear 0.5s, right 0s linear 0.5s;
+        transition: left 0s linear 0.5s, right 0s linear 0.5s,background-color .5s;
         background-color: #f7ed5c; }
     .card .row a:hover .line {
       animation: line-in 1s ease; }
@@ -249,6 +270,48 @@ body {
       right: 0;
       animation: hover-in 0.3s ease 0.5s;
       transition: right 0s linear 0.5s; }
+
+.background-0 {
+  background-color: #073433 !important; }
+
+.background-1 {
+  background-color: #c1bcac !important; }
+
+.background-2 {
+  background-color: #d5d887 !important; }
+
+.background-3 {
+  background-color: #badc93 !important; }
+
+.background-4 {
+  background-color: #ee998c !important; }
+
+.background-5 {
+  background-color: #17bebb !important; }
+
+.background-6 {
+  background-color: #b293b7 !important; }
+
+.color-0 {
+  color: #073433 !important; }
+
+.color-1 {
+  color: #c1bcac !important; }
+
+.color-2 {
+  color: #d5d887 !important; }
+
+.color-3 {
+  color: #badc93 !important; }
+
+.color-4 {
+  color: #ee998c !important; }
+
+.color-5 {
+  color: #17bebb !important; }
+
+.color-6 {
+  color: #b293b7 !important; }
 
 @keyframes text-in {
   0% {

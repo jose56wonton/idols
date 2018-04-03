@@ -22,213 +22,275 @@
 // $color-7-primary: rgb(84, 79, 80);
 // $color-7-secondary: rgb(  232, 203, 0);
 // $color-7-third: rgb(129, 82, 129);
-
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 body {
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 $light: rgb(247, 237, 92);
 $dark: rgb(34, 34, 34);
 $grey: rgb(241, 242, 242);
-
 @import "./blobs.scss";
 .page {
-  display: flex;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; //overflow: hidden;
-  position: relative;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; //overflow: hidden;
+    position: relative;
 }
 
 .container {
-  width: 100%;
-  max-width: 1000px;
-  position: relative;
-}
-.card {
-  background-color: $grey;
-  color: $dark;
-  margin: 100px auto;
-  width: 100%;
-  max-height: 80%;
-  text-align: center;
-  .title {
-    font-size: 50px;
-    @media (min-width: 680px){
-      font-size: 100px;
-    }
-    text-transform: uppercase;
-    transform: translateY(-50%);
-    color: $light;
-    font-weight: 700;
-    transition: translateY 0s linear .5s;
-  }
-  .text-in{    
-    animation: text-in .5s ease ;
-  }
-  .text-out{
-    animation: text-out .5s ease ;
-  }
-  .sub {
-    font-size: 25px;
-    @media (min-width: 680px){
-      font-size: 40px;
-    }
-    padding: 0px 24%;
-    transform: translateY(-50%);
-  }
-  .row {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    padding:40px 0;
-    align-items: center;
-    justify-content: space-evenly;
     width: 100%;
-    height:400px;
-    @media (min-width: 680px){
-      flex-direction: row;
-      padding:0;
-      width: 100%;    
-      height: 270px; 
-      justify-content: space-evenly;
-    }
-    
-    
-    
-    .a-wrapper {
-      position: relative;
-      width: 50%;
-      height: 34%;
-      @media (min-width: 680px){
-        height: 50%;
-        width: 30%;
-      }
-    }
-    a {
+    max-width: 1000px;
+    position: relative;
+}
 
-      box-sizing: border-box;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-      width: 100%;
-      height: 100%;
-      border: 3px solid $dark;
-      background-color: $grey;
-      .text {
-        font-size: 14px;
-        @media (min-width: 680px){
-          font-size: 24px;
+.card {
+    background-color: $grey;
+    color: $dark;
+    margin: 100px auto;
+    width: 100%;
+    max-height: 80%;
+    text-align: center;
+    .title {
+        font-size: 50px;
+        @media (min-width: 680px) {
+            font-size: 100px;
         }
-        font-weight: 700;
         text-transform: uppercase;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      .line {
-        position: absolute;
-        left: 0;
-        background-color: $light;
-        height: 25%;
-        transition: height 0.5s;
-        width: 4px;
+        transform: translateY(-50%);
+        color: $light;
+        font-weight: 700;
+        transition: translateY 0s linear .5s;
+    }
+    .text-in {
+        animation: text-in .5s ease;
+    }
+    .text-out {
+        animation: text-out .5s ease;
+    }
+    .sub {
+        font-size: 25px;
+        @media (min-width: 680px) {
+            font-size: 40px;
+        }
+        padding: 0px 24%;
+        transform: translateY(-50%);
+    }
+    .row {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 400px;
+        @media (min-width: 680px) {
+            flex-direction: row;
+            padding: 0;
+            width: 100%;
+            height: 270px;
+            justify-content: space-evenly;
+        }
+        .a-wrapper {
+            position: relative;
+            width: 50%;
+            height: 34%;
+            @media (min-width: 680px) {
+                height: 50%;
+                width: 30%;
+            }
+        }
+        a {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+            border: 3px solid $dark;
+            background-color: $grey;
+            
+            .text {
+                font-size: 14px;
+                @media (min-width: 680px) {
+                    font-size: 24px;
+                }
+                font-weight: 700;
+                text-transform: uppercase;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,
+                -50%);
+            }
+            .line {
+                position: absolute;
+                left: 0;
+                background-color: $light;
+                
+                height: 25%;
+                transition: height 0.5s,background-color .5s;
+                width: 4px;
+                animation: line-out 1s ease;
+            }
+            .hover {
+                height: 100%;
+                position: absolute;
+                left: 0;
+                right: 100%;
+                animation: hover-out 0.3s ease;
+                transition: left 0s linear 0.5s, right 0s linear 0.5s,background-color .5s;
+             
+                background-color: $light;
+            }
+        }
+        a:hover {
+            .line {
+                animation: line-in 1s ease;
+            }
+            .hover {
+                right: 0;
+                animation: hover-in 0.3s ease 0.5s;
+                transition: right 0s linear 0.5s;
+            }
+        }
+    }
+}
+$color0: rgb(7, 52, 51);
+$color1: rgb( 193, 188, 172);
+$color2: rgb(213, 216, 135);
+$color3: rgb( 186, 220, 147);
+$color4: rgb(238, 153, 140);
+$color5: rgb(23, 190, 187 );
+$color6: rgb( 178, 147, 183);
+.background-0 {
+    background-color: $color0 !important;
+}
 
-        animation: line-out 1s ease;
-      }
-      .hover {
-        height: 100%;
-        position: absolute;
-        left: 0;
-        right: 100%;
-        //transition: right 0.5s 0.5s;
-        animation: hover-out 0.3s ease;
-        transition: left 0s linear 0.5s, right 0s linear 0.5s;
-        background-color: $light;
-      }
-    }
-    a:hover {
-      .line {
-        animation: line-in 1s ease;
-      }
-      .hover {
-        right: 0;
-        animation: hover-in 0.3s ease 0.5s;
-        transition: right 0s linear 0.5s;
-      }
-    }
-  }
+.background-1 {
+    background-color: $color1 !important;
+}
+
+.background-2 {
+    background-color: $color2 !important;
+}
+
+.background-3 {
+    background-color: $color3 !important;
+}
+
+.background-4 {
+    background-color: $color4 !important;
+}
+
+.background-5 {
+    background-color: $color5 !important;
+}
+
+.background-6 {
+    background-color: $color6 !important;
 }
 
 
-@keyframes text-in {    
-  0% {
-    transform: translate3d(0, 0, 0);      
-    opacity: 0;
-  }   
-  100% {
-    transform: translate3d(0, -50%, 0);
-    opacity: 1;
-  }
+.color-0 {
+    color: $color0 !important;
 }
-@keyframes text-out {    
-  0% {
-    transform: translate3d(0, -50%, 0);
-    opacity: 1;
-  }
-  100% {
-    transform: translate3d(0, 0, 0);      
-    opacity: 0;
-  }   
-  
+
+.color-1 {
+    color: $color1 !important;
+}
+
+.color-2 {
+    color: $color2 !important;
+}
+
+.color-3 {
+    color: $color3 !important;
+}
+
+.color-4 {
+    color: $color4 !important;
+}
+
+.color-5 {
+    color: $color5 !important;
+}
+
+.color-6 {
+    color: $color6 !important;
+}
+
+@keyframes text-in {
+    0% {
+        transform: translate3d(0, 0, 0);
+        opacity: 0;
+    }
+    100% {
+        transform: translate3d(0, -50%, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes text-out {
+    0% {
+        transform: translate3d(0, -50%, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 0;
+    }
 }
 
 @keyframes line-out {
-  0% {
-    height: 0px;
-  }
-  50% {
-    height: 0px;
-  }
-  100% {
-    height: 25%;
-  }
+    0% {
+        height: 0px;
+    }
+    50% {
+        height: 0px;
+    }
+    100% {
+        height: 25%;
+    }
 }
+
 @keyframes line-in {
-  0% {
-    height: 25%;
-  }
-  50% {
-    height: 100%;
-  }
-  100% {
-    height: 0;
-  }
+    0% {
+        height: 25%;
+    }
+    50% {
+        height: 100%;
+    }
+    100% {
+        height: 0;
+    }
 }
+
 @keyframes hover-in {
-  from {
-    left: 0;
-    right: 100%;
-  }
-  to {
-    left: 0;
-    right: 0;
-  }
+    from {
+        left: 0;
+        right: 100%;
+    }
+    to {
+        left: 0;
+        right: 0;
+    }
 }
+
 @keyframes hover-out {
-  from {
-    left: 0;
-    right: 0;
-  }
-  to {
-    left: 100%;
-    right: 0;
-  }
+    from {
+        left: 0;
+        right: 0;
+    }
+    to {
+        left: 100%;
+        right: 0;
+    }
 }

@@ -2,6 +2,14 @@ $light: rgb(247, 237, 92);
 $dark: rgb(34, 34, 34);
 $grey: rgb(241, 242, 242);
 
+$color0: rgb(7, 52, 51);
+$color1: rgb( 193, 188, 172);
+$color2: rgb(213, 216, 135);
+$color3: rgb( 186, 220, 147);
+$color4: rgb(238, 153, 140);
+$color5: rgb(23, 190, 187 );
+$color6: rgb( 178, 147, 183);
+
 #svg-1 {
   top:549px;
   left:73px;
@@ -60,6 +68,28 @@ $grey: rgb(241, 242, 242);
   position: absolute;  
   fill: $light;
   transition: all ease 1s;
+}
+.svg-circle-0{
+  fill: $color0;
+}
+.svg-circle-1{
+  fill: $color1;
+}
+.svg-circle-2{
+  fill: $color2;
+}
+
+.svg-circle-3{
+  fill: $color3;
+}
+.svg-circle-4{
+  fill: $color4;
+}
+.svg-circle-5{
+  fill: $color5;
+}
+.svg-circle-6{
+  fill: $color6;
 }
 @keyframes from0to360 {
   from{transform:rotate(0);}

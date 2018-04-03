@@ -12,6 +12,7 @@ class App extends Component {
       current: 0,
       idols: idolData,
       text: "text-in",
+
       blobs: this.generateBlobArray()
     };
   }
@@ -56,30 +57,30 @@ class App extends Component {
     const current = this.state.current;
     const idol = this.state.idols[current];
     const blobs =  this.state.blobs.map((ele,i) => {
-      return <Blob id={ele} key={i} blobs={this.generateBlobArray()}/>
+      return <Blob id={ele} key={i} current={this.state.current} blobs={this.generateBlobArray()}/>
     })
     return (
       <div className="page">
         <div className="container">
           <div className="card">
-            <h1 className={`${this.state.text} title`}>
+            <h1 className={`${this.state.text} title  color-${this.state.current}`}>
               {idol.title}
             </h1>
-            <p className={`${this.state.text} sub`}>
+            <p className={`${this.state.text} sub  color-${this.state.current}`}>
               {idol.sub}
             </p>
             <div className="row">
               <div className="a-wrapper">
                 <a className="ncie" onClick={this.left}>
-                  <span className="hover" />
-                  <span className="line" />
+                  <span className={`hover background-${this.state.current}`} />
+                  <span className={`line background-${this.state.current}`} />
                   <span className="text">left</span>
                 </a>
               </div>
               <div className="a-wrapper">
                 <a className="ncie" onClick={this.right}>
-                  <span className="hover" />
-                  <span className="line" />
+                  <span className={`hover background-${this.state.current}`} />
+                  <span className={`line background-${this.state.current}`} />
                   <span className="text">right</span>
                 </a>
               </div>
@@ -91,5 +92,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;
