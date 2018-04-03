@@ -1,8 +1,7 @@
 import React from "react";
 
-const Blob = props => {
- 
 
+const Blob = props => {
   return (
     <svg
       id={`svg-${props.id}`}
@@ -24,10 +23,10 @@ const Blob = props => {
           <feComposite in="SourceGraphic" in2="goo" operator="atop" />
         </filter>
       </defs>
-      <circle className={`circle${1}`} />
-      <circle className={`circle${2}`} />
-      <circle className={`circle${3}`} />
-      <circle className={`circle${4}`} />
+      <circle className={`circle${props.blobs[0]}`} />
+      <circle className={`circle${props.blobs[1]}`} />
+      <circle className={`circle${props.blobs[2]}`} />
+      <circle className={`circle${props.blobs[3]}`} />
     </svg>
   );
 };

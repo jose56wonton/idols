@@ -45,13 +45,13 @@
 
 #svg-10 {
   top: -60px;
-  left: -30px;
+  left: -120px;
   z-index: 100; }
 
 .svg-circle {
   position: absolute;
   fill: #f7ed5c;
-  transition: top ease 1s,left ease 1s; }
+  transition: all ease 1s; }
 
 @keyframes from0to360 {
   from {
@@ -90,5 +90,47 @@
   cy: 150;
   r: 100;
   transform-origin: 150px 155px; }
+
+.circle5 {
+  animation: from0to360 1s linear infinite;
+  cx: 160;
+  cy: 145;
+  r: 100;
+  transform-origin: 145px 150px; }
+
+.circle6 {
+  animation: from360to0 2s linear infinite;
+  cx: 170;
+  cy: 155;
+  r: 100;
+  transform-origin: 155px 150px; }
+
+.circle7 {
+  animation: from0to360 3s linear infinite;
+  cx: 130;
+  cy: 150;
+  r: 100;
+  transform-origin: 150px 145px; }
+
+.circle8 {
+  animation: from360to0 2.5s linear infinite;
+  cx: 135;
+  cy: 150;
+  r: 100;
+  transform-origin: 150px 155px; }
+
+.circle9 {
+  animation: from0to360 1s linear infinite;
+  cx: 160;
+  cy: 165;
+  r: 100;
+  transform-origin: 145px 150px; }
+
+.circle10 {
+  animation: from360to0 2s linear infinite;
+  cx: 130;
+  cy: 170;
+  r: 100;
+  transform-origin: 155px 150px; }
 
 /*# sourceMappingURL=blobs.css.map */
